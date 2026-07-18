@@ -134,12 +134,12 @@ export default function SlabLeakRepair() {
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Plumbing Slab Leak Repair Tucson Needs</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Professional Slab Leak Repair Solutions</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                When looking for a <strong>plumber to fix slab leak Tucson</strong>, it's critical to hire a professional who offers multiple solutions. <strong>Repairing a leaking water pipe under concrete Tucson</strong> usually involves one of two choices: a direct-access spot repair, or abandoning the line entirely to reroute it.
+                When you need a professional <strong>plumber to fix a slab leak</strong>, it's critical to hire a contractor who offers multiple solutions. <strong>Repairing a leaking water pipe under concrete</strong> usually involves one of two choices: a direct-access spot repair through the floor, or abandoning the line entirely to reroute a new one through the attic.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Whether you need to <strong>fix hot-water pipe leak beneath slab Tucson</strong> or a cold-water line, the best approach depends on your flooring and the overall condition of the pipe. As your <strong>slab leak contractor Tucson</strong>, we explain the <strong>slab leak <a href="/slab-leak-repair-cost-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>repair cost</a> Tucson</strong> implications of both methods.
+                Whether you have a <strong>broken hot-water pipe beneath the slab</strong> or a failing cold-water line, the best approach depends on your specific flooring, foundation type, and the overall condition of your plumbing system. We always take the time to explain the <a href="/slab-leak-repair-cost-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>repair cost</a> implications of both methods so you can make an informed decision.
               </p>
             </div>
             <div style={{ display: "flex" }}>

@@ -142,12 +142,12 @@ export default function SlabLeakDetection() {
         <section style={{ backgroundColor: "var(--white)", padding: "5rem 0" }}>
           <div className="container split-grid" style={{ alignItems: "center" }}>
             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", paddingRight: "3rem" }}>
-              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Signs You Need a Slab Leak Inspection Tucson</h2>
+              <h2 style={{ fontSize: "2.2rem", fontWeight: "800", marginBottom: "1.5rem", color: "var(--dark-charcoal)", lineHeight: "1.2" }}>Signs You Need a Slab Leak Inspection</h2>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                Many homeowners call an underground leak detection Tucson specialist when they notice a <strong>warm spot on floor Tucson</strong> homes commonly have (especially tile), or when a <strong>water meter keeps moving</strong> despite all fixtures being off. Other hidden water leak detection Tucson signs include a <strong>high water bill hidden leak</strong>, or when you <strong>hear water running when fixtures are off</strong>.
+                Many homeowners call for a professional inspection when they notice a <strong>warm spot on their floor</strong> (especially over tile), or when a <strong>water meter keeps spinning</strong> despite all fixtures being turned off. Other signs of a hidden leak include an unusually <strong>high water bill</strong>, or when you <strong>hear water running inside the walls</strong> when no taps are open.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", marginBottom: "1rem", lineHeight: "1.7" }}>
-                You might also experience a <strong>musty smell near flooring</strong>, see a <strong>damp floor no visible leak</strong>, or notice <strong>water underneath tile floor</strong>. Before removing tile or cutting into drywall, our slab leak locator Tucson experts will confirm whether the issue is beneath the foundation.
+                You might also experience a <strong>musty smell near baseboards</strong>, see a <strong>damp patch with no visible source</strong>, or notice <strong>water seeping up underneath tile flooring</strong>. Before removing any tile or cutting into drywall, our diagnostic technicians will confirm whether the issue is beneath the foundation.
               </p>
               <p style={{ fontSize: "1.05rem", color: "#4a4a4a", fontStyle: "italic", lineHeight: "1.7" }}>
                 We separate the hot system from the cold system to prove exactly which line is leaking, stopping the guesswork before it begins.
