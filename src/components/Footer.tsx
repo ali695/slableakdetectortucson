@@ -84,14 +84,6 @@ export default function Footer() {
 
       </div>
       
-      {/* Trust Badges */}
-      <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", paddingBottom: "1rem", display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap", alignItems: "center", color: "var(--white)" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><ShieldCheck size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>Licensed & Insured</span></div>
-        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><Award size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>BBB Accredited</span></div>
-        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><Star size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>5-Star Rated</span></div>
-        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><ThumbsUp size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>HomeAdvisor Pro</span></div>
-        <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}><CheckCircle size={28} color="var(--brand-red)" /><span style={{ fontWeight: "bold", fontSize: "1.1rem" }}>100% Satisfaction</span></div>
-      </div>
 
       {/* Sub Footer */}
       <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.8rem", color: "#71717a", textAlign: "center" }}>
