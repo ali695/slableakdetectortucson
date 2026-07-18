@@ -97,11 +97,11 @@ export default function Footer() {
       <div className="container" style={{ borderTop: "1px solid #3f3f46", paddingTop: "2rem", display: "flex", flexDirection: "column", gap: "1rem", fontSize: "0.8rem", color: "#71717a", textAlign: "center" }}>
         
         <div style={{ display: "flex", justifyContent: "center", gap: "1.5rem", flexWrap: "wrap" }}>
-          <a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Privacy Policy</a>
-          <a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Terms and Conditions</a>
-          <a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Service Disclaimer</a>
-          <a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Accessibility</a>
-          <a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Cookie Policy</a>
+          <a href="/privacy-policy/" style={{ color: "inherit", textDecoration: "none" }}>Privacy Policy</a>
+          <a href="/terms-and-conditions/" style={{ color: "inherit", textDecoration: "none" }}>Terms and Conditions</a>
+          <a href="/service-disclaimer/" style={{ color: "inherit", textDecoration: "none" }}>Service Disclaimer</a>
+          <a href="/accessibility/" style={{ color: "inherit", textDecoration: "none" }}>Accessibility</a>
+          <a href="/cookie-policy/" style={{ color: "inherit", textDecoration: "none" }}>Cookie Policy</a>
           <a href="/sitemap.xml" style={{ color: "inherit", textDecoration: "none" }}>Sitemap</a>
         </div>
 
