@@ -117,6 +117,10 @@ export default function Header() {
             </div>
 
             <div className="nav-item">
+              <Link href="/blog/" className="nav-link">Blog</Link>
+            </div>
+
+            <div className="nav-item">
               <Link href="/contact/" className="nav-link">Contact</Link>
             </div>
           </nav>
@@ -171,6 +175,7 @@ export default function Header() {
               </div>
 
               <Link href="/how-slab-leak-detection-works/" className="mobile-nav-link" onClick={toggleMobileMenu}>How It Works</Link>
+              <Link href="/blog/" className="mobile-nav-link" onClick={toggleMobileMenu}>Blog</Link>
               <Link href="/contact/" className="mobile-nav-link" onClick={toggleMobileMenu} style={{ borderBottom: "none" }}>Contact</Link>
             </div>
           )}
