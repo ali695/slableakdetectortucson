@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import ZipCheckerForm from '@/components/ZipCheckerForm';
 import HeroSlideshow from '@/components/HeroSlideshow';
+import { blogArticles } from '@/data/blogArticles';
 
 export const metadata: Metadata = {
   title: 'Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros',
@@ -299,42 +300,14 @@ export default function Home() {
             </div>
             
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "2.5rem", marginBottom: "3rem" }}>
-              {[
-                {
-                  id: 1,
-                  title: "5 Early Warning Signs of a Slab Leak You Shouldn't Ignore",
-                  excerpt: "Slab leaks can cause massive structural damage if left unchecked. Learn how to spot the subtle signs like warm spots on the floor and unexpected spikes in your water bill.",
-                  image: "/images/signs_slab_leak.jpg",
-                  date: "July 12, 2026",
-                  category: "Detection Guide",
-                  link: "/signs-of-a-slab-leak/"
-                },
-                {
-                  id: 2,
-                  title: "How Much Does Slab Leak Repair Actually Cost in Tucson?",
-                  excerpt: "Worried about the cost of ripping up your concrete foundation? We break down the average costs of slab leak repair, including rerouting vs. direct repair options.",
-                  image: "/images/partial_repiping.jpg",
-                  date: "June 28, 2026",
-                  category: "Cost & Estimates",
-                  link: "/slab-leak-repair-cost-tucson/"
-                },
-                {
-                  id: 3,
-                  title: "Slab Leak vs. Foundation Problem: How to Tell the Difference",
-                  excerpt: "Cracks in your drywall? It could be a foundation settlement issue, or it could be a massive water leak eroding the soil under your home. Here is how to tell.",
-                  image: "/images/slab_leak_vs_foundation.jpg",
-                  date: "June 15, 2026",
-                  category: "Expert Advice",
-                  link: "/slab-leak-vs-foundation-problem/"
-                }
-              ].map((post) => (
-                <article key={post.id} className="premium-card" style={{ display: "flex", flexDirection: "column", cursor: "pointer" }}>
-                  <Link href={post.link} style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column", height: "100%" }}>
+              {blogArticles.slice(0, 3).map((post) => (
+                <article key={post.slug} className="premium-card" style={{ display: "flex", flexDirection: "column", cursor: "pointer" }}>
+                  <Link href={`/blog/${post.slug}`} style={{ textDecoration: "none", color: "inherit", display: "flex", flexDirection: "column", height: "100%" }}>
                     
                     {/* Image Wrapper */}
                     <div style={{ width: "100%", height: "220px", position: "relative", overflow: "hidden", backgroundColor: "#e2e8f0" }}>
                       <img 
-                        src={post.image} 
+                        src={post.heroImage} 
                         alt={post.title} 
                         style={{ width: "100%", height: "100%", objectFit: "cover" }}
                       />
@@ -347,7 +320,7 @@ export default function Home() {
                     <div style={{ padding: "2rem", display: "flex", flexDirection: "column", flexGrow: 1 }}>
                       <div style={{ color: "#64748b", fontSize: "0.9rem", marginBottom: "1rem", fontWeight: "500", display: "flex", alignItems: "center", gap: "0.5rem" }}>
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        {post.date}
+                        {post.published}
                       </div>
                       
                       <h2 style={{ fontSize: "1.4rem", fontWeight: "800", marginBottom: "1rem", lineHeight: "1.3", color: "var(--dark-charcoal)" }}>
@@ -355,7 +328,7 @@ export default function Home() {
                       </h2>
                       
                       <p style={{ color: "#475569", lineHeight: "1.6", marginBottom: "2rem", flexGrow: 1 }}>
-                        {post.excerpt}
+                        {post.description}
                       </p>
                       
                       <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--brand-red)", fontWeight: "600", marginTop: "auto" }}>
