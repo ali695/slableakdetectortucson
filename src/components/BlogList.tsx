@@ -73,10 +73,11 @@ export default function BlogList({ articles, categories }: { articles: BlogArtic
               border: "none",
               backgroundColor: "var(--brand-red)",
               color: "var(--white)",
-              borderRadius: "4px"
+              borderRadius: "4px",
+              textTransform: "uppercase"
             }}
           >
-            Load 9 More Articles
+            Read more
           </button>
         </div>
       )}
