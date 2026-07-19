@@ -21,7 +21,7 @@ const faqSchema = {
       "name": "What is usually the first sign of a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The first sign of a slab leak is often an unexplained increase in your water bill or a water meter that continues to move even when all fixtures are turned off inside and outside the home. Because the leak is buried under concrete, visual signs may take weeks to appear."
+        "text": "There is no single first sign. Many homeowners notice unexplained meter flow, higher water use, water-heater cycling, a warm floor, damp finishes, or a running-water sound. One symptom should trigger a controlled check, not an assumption that the failed pipe is beneath the slab."
       }
     },
     {
@@ -29,7 +29,7 @@ const faqSchema = {
       "name": "Does a warm floor always mean there is a slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No, a warm floor does not always mean there is a slab leak. A warm spot could be caused by direct sunlight, a nearby hot water appliance, or radiant heating. However, an isolated, unusually warm spot on tile or concrete that never cools down is a strong indicator of a hot-water line leak beneath the slab."
+        "text": "No. Sunlight, air ducts, appliances, recirculation, and radiant systems can also warm flooring. A repeatable pattern becomes more meaningful when it aligns with unexplained meter flow, frequent water-heater operation, and pressure loss on the isolated hot-water system."
       }
     },
     {
@@ -37,7 +37,7 @@ const faqSchema = {
       "name": "Can a slab leak occur without visible water?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, a slab leak can absolutely occur without any visible water inside the home. The water escaping from the broken pipe may drain directly into the soil beneath the foundation, remaining entirely hidden while still causing your water meter to move and your water bill to rise."
+        "text": "Yes. Water can remain below the slab, follow a pipe trench, or appear at a distant baseboard or foundation edge. A controlled meter observation and separate hot-, cold-, service-line, pool, and irrigation checks are more useful than waiting for visible water."
       }
     },
     {
@@ -45,7 +45,7 @@ const faqSchema = {
       "name": "Why does my water meter move when every fixture is off?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If your water meter is moving when every fixture is turned off, water is actively escaping from the pressurized plumbing system. This could be an irrigation leak, a running toilet, or an under-slab leak. Professional isolation testing is required to pinpoint the exact location."
+        "text": "Meter movement means water passed through the meter during the observation. The cause could be a toilet, appliance, irrigation valve, pool autofill, service line, or concealed building pipe. Isolation and pressure testing are needed to identify the affected system before locating begins."
       }
     },
     {
@@ -53,7 +53,7 @@ const faqSchema = {
       "name": "Can a slab leak cause low water pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, a severe slab leak can cause low water pressure throughout the home. Because a significant amount of water is escaping beneath the foundation, there is less volume and pressure available to reach your faucets, showers, and appliances."
+        "text": "A large active supply-line loss can reduce available flow or pressure, but low pressure also has other causes, including a utility condition, pressure regulator, closed valve, clogged fixture, or demand elsewhere in the home. Compare the meter and test the plumbing before assigning the cause."
       }
     },
     {
@@ -61,7 +61,7 @@ const faqSchema = {
       "name": "What does a slab leak sound like?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A slab leak can sound like water running, hissing, or spraying beneath the floor, even when no faucets are turned on. In a quiet house, you might hear this faint rushing sound near the baseboards or directly through tile flooring."
+        "text": "A pressurized leak may create a steady hiss or running-water sound, but sound can travel through pipe, concrete, and framing. Toilets, appliances, irrigation, drains, HVAC equipment, and neighboring plumbing can sound similar, so compare the noise with meter flow and system isolation."
       }
     },
     {
@@ -69,7 +69,7 @@ const faqSchema = {
       "name": "Is a suspected slab leak an emergency?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A suspected slab leak becomes an emergency if water is actively flooding the home, pooling near electrical outlets, or undermining the foundation. If there is no visible damage, it is a priority issue that should be addressed quickly to prevent structural damage and high water bills."
+        "text": "Treat active spreading water, rapid meter flow, major pressure loss, or water near electrical equipment as urgent. If the evidence is subtle and no damage is spreading, document the symptoms and arrange prompt testing rather than opening the floor based on one clue."
       }
     },
     {
@@ -77,7 +77,7 @@ const faqSchema = {
       "name": "Who should I call if I am unsure whether the problem is plumbing or foundation damage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you have a moving water meter, warm flooring, or hear running water, you should call a slab leak plumber first to conduct a pressure test. If you only see structural cracking with no water symptoms, a foundation contractor may be the appropriate first call."
+        "text": "Meter flow, warm flooring, water-heater cycling, or supply-water sounds support a plumbing assessment. Progressive cracks, displacement, or sticking doors without evidence of water loss support a structural assessment. When both are present, control active water and coordinate qualified plumbing and structural professionals."
       }
     }
   ]
@@ -153,37 +153,37 @@ export default function SignsOfSlabLeak() {
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <Thermometer size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Warm floor</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>An unusually hot or warm area on your tile or concrete can indicate a hot-water line leaking beneath the slab. This often causes the water heater to run constantly.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>A repeatable warm path may support a hot-water line investigation, especially when the heater cycles without use. Sunlight, ducts, and appliances must also be excluded.</p>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <Droplets size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Damp flooring</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>Moisture wicking up through the foundation can cause damp carpets, warped wood, or wet baseboards. This happens even when there is no visible plumbing leak nearby.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>Damp carpet, swollen baseboards, loose flooring, or a musty area can justify moisture mapping. Supply, drain, wall, roof, HVAC, and exterior sources remain possible.</p>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <Gauge size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Moving water meter</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>If your water meter dials continue to spin when every fixture inside and outside the home is turned off, water is actively escaping the pressurized system.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>A changing meter during a controlled no-use period confirms water flow. It does not identify whether the source is a fixture, outdoor system, service line, or under-slab branch.</p>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <Volume2 size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Running-water sound</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>You may hear the faint sound of running or hissing water beneath the floorboards. In a quiet house, this sound travels through the concrete from the broken pipe.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>A steady hiss or running-water sound with fixtures idle deserves investigation. Record its timing and compare it with the meter before assuming where the sound originates.</p>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <ArrowDownToLine size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Pressure loss</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>A severe slab leak diverts water away from your fixtures, resulting in lower water pressure in showers and sinks. This pressure drop usually affects the entire home.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>A significant supply-line loss can affect fixture performance, but regulators, valves, utility work, and clogged fixtures can also reduce pressure. Test rather than diagnose from pressure alone.</p>
               </div>
 
               <div style={{ backgroundColor: "var(--white)", padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05)" }}>
                 <Activity size={32} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
                 <h3 style={{ fontSize: "1.25rem", fontWeight: "700", color: "var(--dark-charcoal)", marginBottom: "0.75rem" }}>Increased water usage</h3>
-                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>An unexpected spike in your monthly water bill is often the very first sign of a hidden leak. Thousands of gallons can be lost into the soil without surfacing.</p>
+                <p style={{ color: "#475569", lineHeight: "1.6", margin: 0 }}>Compare actual consumption, billing days, and seasonal use. Irrigation, pools, toilets, appliances, guests, rate changes, and hidden plumbing can all affect the bill.</p>
               </div>
 
             </div>
@@ -201,10 +201,10 @@ export default function SignsOfSlabLeak() {
             <div className="split-grid" style={{ alignItems: "center", marginBottom: "4rem" }}>
               <div style={{ paddingRight: "2rem" }}>
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Warm or unusually hot flooring</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>A hot-water line leak beneath the slab will radiate heat upward through the concrete, creating a localized warm spot on your tile or carpet. This is a very strong indicator of a <a href="/hot-water-slab-leak-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>hot-water slab leak</a>.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>Escaping hot water can transfer heat through soil, concrete, mortar, and flooring. A narrow or repeatable warm pattern can support a <a href="/hot-water-slab-leak-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>hot-water slab leak</a> investigation when meter, heater, and pressure-test evidence agree. It is not a diagnosis by itself.</p>
                 
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem", marginTop: "2rem" }}>Damp carpet, tile or baseboards</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>When water escapes under the slab, hydrostatic pressure can force the moisture upward. You may notice unexplained dampness on carpets, water pooling on tile floors, or baseboards swelling and separating from the wall.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>Water may follow a pipe trench, crack, slab edge, or finish layer before becoming visible. Unexplained damp carpet, loose flooring, or swollen baseboards should be mapped, while wall, drain, roof, irrigation, and HVAC sources are checked separately.</p>
               </div>
               <div>
                 <img src="/images/section_damp_floor.jpg" alt="Residential section damp floor in Tucson" title="Section Damp Floor Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
@@ -215,10 +215,10 @@ export default function SignsOfSlabLeak() {
             <div className="split-grid" style={{ alignItems: "center", marginBottom: "4rem" }}>
               <div style={{ order: 2, paddingLeft: "2rem" }}>
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Water sounds when fixtures are off</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>If your home is completely quiet and you can hear the faint sound of running water, you may be hearing water escaping from a pressurized pipe beneath the foundation.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>A steady hiss or running-water sound may come from a pressurized pipe, but sound travels along piping and concrete. Note whether it continues with fixtures and automatic systems off and whether the meter records flow at the same time.</p>
                 
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem", marginTop: "2rem" }}>Unexplained household water use</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>A sudden, dramatic increase in your monthly water bill is a classic symptom. If your usage habits haven't changed, a hidden leak is likely responsible for the excess water loss.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>A bill increase is useful only after comparing consumption units, billing-cycle length, irrigation, pool filling, guests, and appliance use. If those do not explain the change, a controlled meter check and staged isolation can narrow hidden water loss.</p>
               </div>
               <div style={{ order: 1 }}>
                 <img src="/images/cold_water_slab_leak.jpg" alt="Tucson cold water slab leak services" title="Cold Water Slab Leak Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
@@ -229,10 +229,10 @@ export default function SignsOfSlabLeak() {
             <div className="split-grid" style={{ alignItems: "center" }}>
               <div style={{ paddingRight: "2rem" }}>
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Lower water pressure</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>Because water is escaping the system before it reaches your fixtures, you may experience a noticeable drop in water pressure when you turn on your shower or sink.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>A large active leak can reduce available flow, yet a pressure regulator, partly closed valve, fixture restriction, or utility condition can create the same complaint. Compare several fixtures and record whether the meter also shows unexplained flow.</p>
                 
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem", marginTop: "2rem" }}>Water near the foundation edge</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>Sometimes the path of least resistance for escaping water is outward rather than upward. Unexplained puddles or muddy areas around the exterior edge of your home's foundation can indicate an <a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab leak</a>.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>Water near a slab edge may come from an <a href="/under-slab-pipe-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>under-slab line</a>, the meter-to-house service line, irrigation, pool equipment, drainage, or runoff. Meter and valve isolation should identify the system before any excavation.</p>
               </div>
               <div>
                 <img src="/images/section_pressure_gauge.jpg" alt="Residential section pressure gauge in Tucson" title="Section Pressure Gauge Tucson" style={{ width: "100%", borderRadius: "8px", boxShadow: "0 10px 25px rgba(0,0,0,0.1)" }} />
@@ -251,13 +251,13 @@ export default function SignsOfSlabLeak() {
                 <h2 style={{ fontSize: "2.2rem", fontWeight: "800", color: "var(--dark-charcoal)", margin: 0 }}>A Simple Water-Meter Check for Hidden Water Use</h2>
               </div>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>
-                You can perform a simple test to confirm if water is escaping your system. First, ensure every water fixture inside and outside your home is completely turned off. This includes washing machines, dishwashers, and irrigation systems.
+                Choose a quiet period and place every known water user in a controlled condition. Check faucets, toilets, washing machines, dishwashers, ice makers, water treatment, irrigation, pool autofill, and evaporative cooling. Photograph the starting meter display instead of relying on memory.
               </p>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>
-                Next, locate your water meter. Tucson Water notes that some meters have a low-flow indicator (a small red triangle or star). If this indicator is spinning, or if the main sweep hand is moving while all water is off, you have a leak. 
+                Observe the meter long enough to detect small continuous flow and photograph the ending display. Meter types vary, so follow Tucson Water guidance for reading the installed model and do not open, alter, or attach equipment to the utility meter in a way that could damage it.
               </p>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7", fontWeight: "600" }}>
-                Tucson Water recommends comparing the meter reading after a 30-minute period with no water use. Keep in mind: A moving meter confirms a leak on the property, but it does not prove the leak is beneath the slab.
+                A changing reading confirms metered flow during the test. It does not prove a slab leak. Repeat an uncertain result, then isolate obvious fixtures, outdoor systems, the private service line, and interior hot or cold plumbing as the property layout permits.
               </p>
             </div>
             <div>
@@ -320,7 +320,7 @@ export default function SignsOfSlabLeak() {
               Other Leaks That Can Mimic a Slab Leak
             </h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 3rem" }}>
-              Not every spinning meter or damp spot is a slab leak. Professional isolation testing helps rule out other common issues before making a diagnosis. These include:
+              Not every meter change, sound, or damp spot comes from under the slab. Use timing, valve isolation, moisture mapping, and pressure testing to compare these common alternatives before choosing an invasive repair:
             </p>
             
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1rem" }}>
@@ -349,8 +349,7 @@ export default function SignsOfSlabLeak() {
               <AlertTriangle size={48} color="var(--brand-red)" style={{ marginBottom: "1rem" }} />
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "#991b1b", marginBottom: "1rem" }}>When the Situation Is Urgent</h2>
               <p style={{ color: "#7f1d1d", fontSize: "1.1rem", maxWidth: "700px", marginBottom: "2rem", lineHeight: "1.6" }}>
-                A suspected slab leak requires immediate professional intervention if you experience any of the following: 
-                <strong> water actively spreading across floors, water pooling near electrical equipment, sudden and severe pressure loss, rapid meter activity, or hot flooring becoming increasingly warm.</strong>
+                Treat the condition as urgent when there is <strong>active spreading water, water near electrical equipment, rapid unexplained meter flow, sudden major pressure loss, or finishes changing quickly.</strong> If safe, close the private main shutoff, protect people and belongings, and arrange prompt plumbing help. Do not force an old or damaged valve.
               </p>
               <a href="tel:5205550199" style={{ backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold", fontSize: "1.1rem", textTransform: "uppercase", letterSpacing: "1px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
                 <Volume2 size={20} /> CALL ABOUT AN ACTIVE LEAK
@@ -366,9 +365,9 @@ export default function SignsOfSlabLeak() {
               How Detection Confirms the Problem
             </h2>
             <div style={{ maxWidth: "800px", margin: "0 auto", color: "#4a4a4a", fontSize: "1.1rem", lineHeight: "1.7" }}>
-              <p style={{ marginBottom: "1rem" }}>If you notice these signs, the next step is professional detection. A technician will first check all visible sources to rule out easy fixes. Once ruled out, water loss is confirmed at the meter.</p>
-              <p style={{ marginBottom: "1rem" }}>The hot and cold water systems are then isolated from each other. <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Pressure testing</a> is performed on the isolated lines to see which system drops in pressure, proving exactly which pipe has failed.</p>
-              <p>Finally, electronic or acoustic locating equipment is used to listen through the concrete and pinpoint the exact location of the failure. Only then are repair options discussed.</p>
+              <p style={{ marginBottom: "1rem" }}>A technician first reviews visible fixtures, automatic equipment, outdoor systems, the meter, and accessible plumbing. The goal is to confirm repeatable unexplained water loss before interpreting floor temperature, sound, or moisture.</p>
+              <p style={{ marginBottom: "1rem" }}>The service line, hot distribution, cold distribution, and accessible branches may then be isolated. <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Pressure testing</a> shows which defined section holds and which repeatedly loses pressure under the test conditions.</p>
+              <p>Pipe tracing, acoustic comparison, thermal imaging, and moisture mapping can narrow the suspected route or area. No instrument sees the break through concrete, so the written result should state the evidence, limitations, and confidence before repair options are compared.</p>
             </div>
           </div>
         </section>
@@ -379,7 +378,7 @@ export default function SignsOfSlabLeak() {
             <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
               <h2 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Tucson Plumbing Context</h2>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>
-                Tucson Water describes the local water supply as hard water and notes that mineral buildup can affect appliances and restrict pipes over time. While hard water affects plumbing, it does not directly cause every slab leak. Pipe material, water pressure, installation quality, home age, and prior repairs all play significant roles in the lifespan of an under-slab pipe.
+                Tucson Water classifies local water as hard to very hard and provides current water-quality information by area. Hardness commonly creates scale in fixtures and water-heating equipment, but it does not diagnose an under-slab failure. Pipe material, installation, pressure, movement, abrasion, temperature cycling, repair history, and site conditions must be evaluated together.
               </p>
             </div>
           </div>
@@ -400,7 +399,7 @@ export default function SignsOfSlabLeak() {
                   </div>
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Pinpoint hidden leaks beneath your foundation without unnecessary destruction.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Confirm the affected system and narrow a concealed route before repair access is planned.</p>
                   </div>
                 </div>
               </Link>
@@ -412,7 +411,7 @@ export default function SignsOfSlabLeak() {
                   </div>
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Electronic Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Advanced acoustic technology to locate pressurized pipe failures.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Compare acoustic, thermal, tracing, and moisture evidence after system isolation.</p>
                   </div>
                 </div>
               </Link>

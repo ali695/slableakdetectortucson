@@ -43,7 +43,7 @@ const faqSchema = {
       "name": "Does a warm floor always mean there is a hot-water slab leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not always. A warm floor could be caused by direct sunlight heating the tile, uninsulated HVAC ductwork running beneath the floor, or a nearby hot-water appliance. However, if the spot remains consistently hot day and night and you notice your water heater running more frequently, it is very likely a hot-water slab leak."
+        "text": "No. Sunlight, ductwork, appliances, recirculation, and radiant systems can produce similar heat. A repeatable warm pattern becomes useful evidence when the meter shows unexplained flow, the water heater cycles without demand, and the isolated hot system loses pressure."
       }
     },
     {
@@ -51,7 +51,7 @@ const faqSchema = {
       "name": "Can a hot-water slab leak make the water heater run continuously?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Because hot water is constantly escaping from the broken pipe under the slab, the water heater tank is continuously refilling with cold water that it must heat. This causes the burner or heating elements to run almost non-stop."
+        "text": "An active hot-line loss can make the heater recover more often because heated water is replaced by incoming cold water. Frequent operation can also result from normal demand, recirculation, controls, sediment, or equipment problems, so compare heater behavior with meter and pressure-test evidence."
       }
     },
     {
@@ -59,7 +59,7 @@ const faqSchema = {
       "name": "Can a hidden hot-water leak increase energy costs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. A hot-water slab leak hits you with a double penalty: you pay for the wasted water escaping the pipe, and you pay for the gas or electricity required to constantly heat that escaping water."
+        "text": "Yes. An active hot-water loss can increase both metered water use and the gas or electricity needed for reheating. Compare actual consumption and energy use with similar periods, while accounting for household demand and equipment efficiency."
       }
     },
     {
@@ -67,7 +67,7 @@ const faqSchema = {
       "name": "How is a hot-water line tested beneath a slab?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A plumber isolates the hot-water system by shutting the valve at the water heater. They then attach a pressure gauge to the hot-water side. If the gauge shows a drop in pressure while the cold-water system remains stable, a hot-water leak is confirmed."
+        "text": "A plumber defines and isolates the hot-water test section, connects an appropriate gauge, allows pressure and temperature to stabilize, and records the result. A repeatable drop supports loss within that boundary after gauge connections, valves, equipment, and temperature effects are checked."
       }
     },
     {
@@ -75,7 +75,7 @@ const faqSchema = {
       "name": "Can thermal imaging confirm the exact leak location?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Thermal imaging cameras are excellent at finding the general area of a hot-water slab leak by displaying heat blooming through the concrete. However, water can travel along the pipe before surfacing. Acoustic detection is often used alongside thermal imaging to pinpoint the exact failure point."
+        "text": "Thermal imaging compares surface temperature; it does not see water or a pipe break through concrete. When a hot-line loss is already confirmed, thermal, acoustic, tracing, and moisture patterns may narrow an evidence area. Site conditions may prevent an exact pre-access location."
       }
     },
     {
@@ -83,7 +83,7 @@ const faqSchema = {
       "name": "Should I turn off the water heater if I suspect a hot-water leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, turning off the valve on the cold-water inlet pipe leading into the water heater will stop the flow of water to the hot-water leak. You should also turn down the gas or turn off the breaker to the water heater to prevent it from overheating while empty."
+        "text": "If water is actively causing damage, use the home or equipment shutoff only when it is clearly identified and safe to operate. Water heaters have gas, electrical, temperature, and pressure hazards. Follow the manufacturer’s shutdown instructions or contact a qualified plumber rather than guessing at valves or controls."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       "name": "Can I continue using cold water?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you successfully shut off the inlet valve at the water heater, you have isolated the hot-water side. In most homes, this allows you to safely turn the main water back on and continue using cold water for toilets and cold sinks until repairs are made."
+        "text": "Some systems allow the hot side to be isolated while cold fixtures remain available, but recirculation loops, cross-connections, damaged valves, and equipment design can complicate this. Have the isolation confirmed and do not operate the water heater in an unsafe or partially drained condition."
       }
     },
     {
@@ -99,7 +99,7 @@ const faqSchema = {
       "name": "Is rerouting better than opening the slab for a hot-water leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Rerouting is often preferred because it abandons the old, failing pipe under the slab entirely. Running a new PEX line through the attic or walls avoids the disruption of jackhammering your floors and prevents future leaks on that same under-slab line."
+        "text": "Neither option is automatically better. Direct repair may fit one well-located failure with practical floor access. Rerouting may fit an inaccessible or unreliable branch, but it still requires a designed path, sizing, insulation, supports, penetrations, fixture reconnections, testing, and finish repair."
       }
     }
   ]
@@ -191,8 +191,7 @@ export default function HotWaterSlabLeak() {
               Why a Hot-Water Leak Can Warm the Floor
             </h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 4rem", lineHeight: "1.7" }}>
-              When a hot-water pipe develops a pinhole leak or crack beneath the concrete slab, the escaping hot water releases thermal energy into the surrounding soil and concrete. Because heat naturally rises, the concrete absorbs this energy and transfers it to your flooring. This is why a warm or hot spot on your tile, carpet, or hardwood is often the first tactile sign of a failing hot-water line. However, not every warm spot is plumbing related.
-             We proudly provide these services to homeowners in <a href="/service-areas/rita-ranch/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Rita Ranch</a>.</p>
+              Hot water escaping beneath a slab can transfer heat through soil, concrete, mortar, and flooring. The surface pattern may follow the pipe route or spread away from it, and carpet or thick finishes can hide the change. A warm floor is therefore a clue—not confirmation. In <a href="/service-areas/rita-ranch/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Rita Ranch</a> and other Tucson service areas, diagnosis should combine timing, meter flow, heater activity, hot-system isolation, and repeatable pressure loss.</p>
 
             <div className="split-grid" style={{ alignItems: "flex-start" }}>
               <div>
@@ -200,27 +199,27 @@ export default function HotWaterSlabLeak() {
                 <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "1.5rem" }}>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Warm tile or concrete</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A localized hot spot that does not change temperature throughout the day or night.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A repeatable path that does not track sunlight, HVAC cycles, or nearby appliances.</span>
                   </li>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Water heater cycling frequently</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Your water heater turns on repeatedly to heat the incoming cold water that is replacing the lost hot water.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>The heater recovers when no fixture has used hot water; normal demand and equipment faults still need to be excluded.</span>
                   </li>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Reduced hot-water availability</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Showers run cold quickly because the tank cannot keep up with the continuous loss under the slab.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Available hot water changes without a clear increase in household demand.</span>
                   </li>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Higher water and energy use</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A double penalty on your utility bills from wasted water and wasted gas or electricity.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Metered water and heater energy rise together after billing days and normal use are considered.</span>
                   </li>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Warm moisture</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Damp carpets or warped baseboards accompanied by physical warmth.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A warm moisture pattern may support the investigation, but water can travel far from its source.</span>
                   </li>
                   <li>
                     <strong style={{ display: "block", color: "var(--brand-red)", fontSize: "1.1rem" }}>Sound near the floor</strong>
-                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A faint hissing or running water sound radiating through the warm area.</span>
+                    <span style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A sound that continues with fixtures idle and aligns with unexplained meter flow deserves testing.</span>
                   </li>
                 </ul>
               </div>
@@ -233,7 +232,7 @@ export default function HotWaterSlabLeak() {
                   <li><strong>HVAC ductwork:</strong> Uninsulated or poorly routed air ducts running near the foundation.</li>
                   <li><strong>Radiant floor heating:</strong> Older or malfunctioning electrical heating mats.</li>
                   <li><strong>Nearby hot-water appliance:</strong> Heat radiating from a dishwasher or under-sink boiler.</li>
-                  <li><strong>Outdoor temperature effects:</strong> Heat transferring through the foundation edge during Tucson's hot summers.</li>
+                  <li><strong>Outdoor temperature effects:</strong> Heat transferring through the foundation edge during Tucson&apos;s hot summers.</li>
                 </ul>
               </div>
             </div>
@@ -249,7 +248,7 @@ export default function HotWaterSlabLeak() {
                 <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "#991b1b", margin: 0 }}>Immediate Action: Isolate the Heater</h3>
               </div>
               <p style={{ color: "#7f1d1d", fontSize: "1.1rem", lineHeight: "1.6", margin: 0 }}>
-                If you suspect a hot-water slab leak, you can stop the water loss immediately by turning off the cold-water inlet valve located on the pipe entering the top of your water heater. You should also turn down the gas thermostat or shut off the electrical breaker to the water heater to prevent the empty tank from overheating. Do not attempt further electrical or gas work beyond basic manufacturer shutoff guidance.
+                If water is actively spreading, use the private main or water-heater isolation valve only when it is clearly identified, accessible, and safe to operate. Do not force a corroded valve or guess at gas and electrical controls. Follow the manufacturer’s shutdown instructions or call a qualified plumber. A heater must not be operated in an unsafe, isolated, or partially drained condition.
               </p>
             </div>
           </div>
@@ -264,11 +263,11 @@ export default function HotWaterSlabLeak() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
               {[
                 { title: 'Isolate Hot-Water System', icon: <Search size={24} color="var(--brand-red)" /> },
-                { title: 'Thermal Imaging Scan', icon: <Activity size={24} color="var(--brand-red)" /> },
-                { title: 'Acoustic Line Tracing', icon: <Wrench size={24} color="var(--brand-red)" /> },
                 { title: 'Static Pressure Testing', icon: <Gauge size={24} color="var(--brand-red)" /> },
-                { title: 'Pinpoint Leak Location', icon: <Search size={24} color="var(--brand-red)" /> },
-                { title: 'Repair Recommendation', icon: <Wrench size={24} color="var(--brand-red)" /> }
+                { title: 'Trace the Pipe Route', icon: <Wrench size={24} color="var(--brand-red)" /> },
+                { title: 'Compare Thermal Evidence', icon: <Activity size={24} color="var(--brand-red)" /> },
+                { title: 'Compare Acoustic Evidence', icon: <Search size={24} color="var(--brand-red)" /> },
+                { title: 'Document Findings and Options', icon: <Wrench size={24} color="var(--brand-red)" /> }
               ].map((step, i) => (
                 <div key={i} style={{ backgroundColor: "var(--white)", padding: "1.5rem", borderRadius: "8px", border: "1px solid #e2e8f0", display: "flex", alignItems: "center", gap: "1rem" }}>
                   <div style={{ backgroundColor: "#fee2e2", padding: "0.75rem", borderRadius: "50%" }}>
@@ -290,15 +289,15 @@ export default function HotWaterSlabLeak() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2rem", marginBottom: "4rem" }}>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#f8fafc" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Direct spot repair</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Opening the concrete slab directly above the leak to patch the copper line. Best when the leak is easily accessible and the rest of the pipe is in good condition.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A controlled floor and concrete opening exposes the failed section for compatible repair. It may fit one well-supported location with practical access and no pattern of branch failures.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#f8fafc" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Hot-water line rerouting</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Abandoning the failing line under the floor and running a new, continuous PEX line through the attic or walls. Avoids jackhammering floors.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>The failed run is disconnected and replaced through an approved wall, ceiling, garage, attic, or other route. It may preserve flooring while requiring different finish openings.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "#f8fafc" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Partial hot-water repiping</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>Replacing multiple failing hot-water branches entirely. Best if the home has a history of slab leaks and the copper is heavily corroded.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6" }}>A defined group of unreliable hot-water branches is replaced when documented failure history supports more than one isolated repair. The boundary should be shown in writing.</p>
               </div>
             </div>
 
@@ -314,23 +313,23 @@ export default function HotWaterSlabLeak() {
                 <tbody>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Access</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Requires jackhammering concrete and removing flooring.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Utilizes attics and wall cavities; leaves floors intact.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Requires localized flooring and concrete access.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Uses a designed alternate path; may preserve flooring but require wall or ceiling access.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Disruption</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>High noise and dust; requires tile or carpet matching later.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Moderate; may require some drywall patching.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Concrete, dust protection, and flooring restoration must be scoped.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>May affect drywall, insulation, cabinets, attic access, paint, and penetrations.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Suitable Situations</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Leaks near the foundation edge or under unfinished floors.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Leaks located in the middle of living rooms, kitchens, or under luxury flooring.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>One well-located failure with reasonable access and serviceable surrounding pipe.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>An inaccessible, repeatedly repaired, or unreliable run with a practical replacement path.</td>
                   </tr>
                   <tr>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Future Risk</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>The rest of the old copper line remains under the slab and could leak again.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>The new PEX line is highly durable and above ground, eliminating slab risk for that line.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Addresses the exposed failure; concealed pipe condition remains partly unknown.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Removes the selected run from slab service; design and installation still determine reliability.</td>
                   </tr>
                 </tbody>
               </table>
@@ -342,9 +341,9 @@ export default function HotWaterSlabLeak() {
         <section style={{ backgroundColor: "#f8fafc", padding: "4rem 0" }}>
           <div className="container">
             <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center" }}>
-              <h2 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Tucson Hard Water</h2>
+              <h2 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>Tucson Water and Hot-Line Conditions</h2>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7" }}>
-                Tucson's municipal water supply contains high mineral content (hard water). While these minerals can slowly degrade plumbing fixtures and water heaters, they are rarely the sole cause of a hot-water slab leak. Instead, hot water pipes expand and contract with temperature changes against the concrete. This thermal friction, combined with local water chemistry and original installation quality, leads to pinhole leaks.
+                Tucson Water describes local water as hard to very hard, which commonly contributes to scale in fixtures and water-heating equipment. Hardness alone does not identify why a concealed pipe failed. Pressure, pipe material, workmanship, abrasion, movement, temperature cycling, repairs, and the actual condition found after access should guide the explanation and repair scope.
               </p>
             </div>
           </div>
@@ -362,7 +361,7 @@ export default function HotWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Comprehensive testing to locate hidden pipe failures.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Confirm hot-system loss and narrow the concealed route before repair.</p>
                   </div>
                 </div>
               </Link>
@@ -371,7 +370,7 @@ export default function HotWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Bypass the slab entirely with safer, above-ground lines.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Design and test an alternate route when bypassing the failed run is appropriate.</p>
                   </div>
                 </div>
               </Link>
@@ -380,7 +379,7 @@ export default function HotWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Electronic Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Acoustic tracking for precise, non-destructive locating.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Combine route, acoustic, thermal, and moisture evidence without promising a perfect pinpoint.</p>
                   </div>
                 </div>
               </Link>
@@ -426,7 +425,7 @@ export default function HotWaterSlabLeak() {
                   Schedule Hot-Water Leak Detection
                 </h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Provide your ZIP code and let us know where the floor is warm so we can accurately diagnose the issue.
+                  Provide your ZIP code, describe when the floor feels warm, and note meter or water-heater changes. Testing should confirm the hot system before repair is selected.
                 </p>
               </div>
 

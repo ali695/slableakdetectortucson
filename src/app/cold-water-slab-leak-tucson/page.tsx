@@ -43,7 +43,7 @@ const faqSchema = {
       "name": "Can a cold-water slab leak occur without a warm floor?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, absolutely. Because the escaping water is unheated, it will not radiate warmth through the concrete or tile. The floor will remain at room temperature, making a cold-water leak harder to notice initially."
+        "text": "Yes. A cold-water line usually produces no warm-floor clue. Evidence may instead include controlled meter movement, repeatable cold-system pressure loss, damp finishes, sound, or a service-line pattern after fixtures and outdoor systems are excluded."
       }
     },
     {
@@ -51,7 +51,7 @@ const faqSchema = {
       "name": "Can a cold-water leak remain hidden without visible moisture?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. If the pipe is buried deeply or the soil beneath the foundation is extremely dry and porous, thousands of gallons of water can drain down into the earth without ever wicking up into the home's flooring or walls."
+        "text": "Yes. Water may remain below the slab, follow a pipe trench, or appear away from the break. A lack of visible moisture does not rule out loss, but meter flow must be separated from toilets, appliances, irrigation, pools, and the service line."
       }
     },
     {
@@ -59,7 +59,7 @@ const faqSchema = {
       "name": "Will a cold-water slab leak reduce water pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on the severity of the leak. A small pinhole leak may not cause a noticeable pressure drop. However, a major failure in a main cold-water line will divert significant water volume, leading to noticeably lower pressure at showers and faucets."
+        "text": "A larger active loss may reduce fixture performance, while a small one may not be noticeable. Low pressure can also come from the utility, a regulator, valve, restriction, or simultaneous demand, so it should be compared with meter and isolation results."
       }
     },
     {
@@ -67,7 +67,7 @@ const faqSchema = {
       "name": "Can the water meter help confirm a cold-water leak?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Since cold water bypasses the water heater, the main municipal water meter is the primary indicator of a cold-water leak. If the low-flow indicator or sweep hand moves while all fixtures are off, water is escaping somewhere on the property."
+        "text": "The meter can confirm water passed through it during a controlled no-use period. It cannot identify a cold slab branch by itself. Record the reading and isolate fixtures, outdoor systems, the private service line, and interior branches as the layout permits."
       }
     },
     {
@@ -75,7 +75,7 @@ const faqSchema = {
       "name": "How is the cold-water system isolated for testing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Plumbers isolate the system by turning off the inlet valve to the water heater and isolating irrigation systems if possible. Pressure is then tested on the remaining cold-water loop inside the home. If pressure drops, the leak is confirmed on the indoor cold line."
+        "text": "The plumber defines the cold-water test boundary and separates the heater, outdoor supplies, service line, or accessible branches as needed. A repeatable pressure drop supports loss within that isolated section after the gauge, valves, temperature, and connected equipment are checked."
       }
     },
     {
@@ -83,7 +83,7 @@ const faqSchema = {
       "name": "Could the problem be an irrigation or service-line leak instead?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. This is why isolation is critical. A spinning meter could just as easily indicate a broken sprinkler pipe in the yard or a failure in the main service line running from the street to the house, rather than a slab leak."
+        "text": "Yes. Irrigation valves, pool autofill, exterior branches, and the private line from the meter to the home can all create continuous meter flow. Each system should be placed in a known condition and tested separately before an under-slab diagnosis."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       "name": "Is a cold-water slab leak an emergency?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If water is flooding the interior or undermining the foundation, it is an emergency and the main water must be shut off immediately. If it is entirely hidden and slow, it is still urgent due to the potential for foundational shifting and high utility bills, but not a same-day emergency."
+        "text": "Treat active spreading water, rapid unexplained meter flow, major pressure loss, or water near electrical equipment as urgent. Use the private main shutoff only when it is safe and identifiable. Subtle evidence still deserves prompt testing, but not blind floor opening."
       }
     },
     {
@@ -99,7 +99,7 @@ const faqSchema = {
       "name": "Will the floor need to be opened for repair?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not always. While direct spot repair requires opening the slab, cold-water lines can often be rerouted through the attic or walls, entirely abandoning the leaking pipe under the concrete."
+        "text": "Not always. Direct repair requires localized floor and concrete access. A verified failed branch may instead be disconnected and rerouted through an approved path, but that option can require wall, ceiling, garage, attic, or exterior openings and careful sizing and protection."
       }
     }
   ]
@@ -189,8 +189,7 @@ export default function ColdWaterSlabLeak() {
               Why Cold-Water Slab Leaks Can Be Harder to Notice
             </h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 4rem", lineHeight: "1.7" }}>
-              Unlike hot-water leaks that create a noticeable warm spot on tile or concrete, cold-water slab leaks remain at room temperature. If the soil beneath your home is dry and porous, the water may drain downward rather than wicking up into your flooring. This means a cold-water leak can remain completely hidden without any visible moisture or surface symptoms for weeks, leaving a shockingly high water bill as your only warning sign.
-             Our experts are highly trained in <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>partial repiping</a>.</p>
+              Cold-water slab leaks usually do not create the warm-floor pattern associated with an active hot line. Water may remain below the slab, follow a trench, or appear at a distant finish, so the strongest early evidence is often controlled meter flow and repeatable cold-system pressure loss. If one branch has a documented history of failures, compare direct repair or rerouting with a clearly defined <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>partial repiping</a> scope.</p>
           </div>
         </section>
 
@@ -201,8 +200,7 @@ export default function ColdWaterSlabLeak() {
               Other Sources to Rule Out
             </h2>
             <p style={{ textAlign: "center", color: "#7f1d1d", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 3rem", lineHeight: "1.7" }}>
-              Because cold-water leaks often present only as a moving water meter, it is absolutely critical to rule out other common cold-water sources before assuming a pipe has failed under the slab.
-             If you live in <a href="/service-areas/catalina-saddlebrooke/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>SaddleBrooke</a>, our specialists can be dispatched immediately.</p>
+              A moving meter proves flow, not location. Before assuming an under-slab cold line has failed, control toilets, appliances, irrigation, pool autofill, hose connections, water treatment, and the meter-to-house service line. The same staged process applies in <a href="/service-areas/catalina-saddlebrooke/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>SaddleBrooke</a> and throughout the Tucson service area.</p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1rem", maxWidth: "900px", margin: "0 auto" }}>
               {["Toilet flappers", "Irrigation systems", "Pool auto-fills", "Appliance lines", "Outdoor faucets", "Meter-to-home service line"].map((item, i) => (
                 <div key={i} style={{ backgroundColor: "var(--white)", padding: "1rem", borderRadius: "4px", textAlign: "center", fontWeight: "600", color: "var(--dark-charcoal)", border: "1px solid #fca5a5" }}>
@@ -257,13 +255,13 @@ export default function ColdWaterSlabLeak() {
                 <tbody>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Slab line</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Moving meter, low pressure inside home, possible floor dampness.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Isolation, pressure testing, acoustic locating.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Interior system loses pressure; meter flow may continue; floor may remain neutral.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Confirm cold branch, trace route, compare acoustic and moisture evidence.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Irrigation</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Meter moves when irrigation is off; soft/muddy yard spots.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Isolate irrigation vacuum breaker to confirm.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Flow follows a schedule, valve condition, or wet landscape zone.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Disable the controller and isolate the supply or zones where safe.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Toilet</td>
@@ -277,8 +275,8 @@ export default function ColdWaterSlabLeak() {
                   </tr>
                   <tr>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Service line</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Meter moves but home pressure holds steady; soggy yard between street and house.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Shut off main house valve to verify line between meter and home.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Meter flow may continue while the private house shutoff is safely closed.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Test the private line between the meter and home; confirm valve condition and layout.</td>
                   </tr>
                 </tbody>
               </table>
@@ -295,15 +293,15 @@ export default function ColdWaterSlabLeak() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem" }}>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "var(--white)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Direct-access repair</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>Opening the floor and concrete directly over the leak to repair the section of pipe. Often used for cold-water lines if rerouting is too invasive.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>A controlled opening exposes one well-supported failure for compatible repair. Flooring, concrete, testing, closure, and restoration should be defined before work begins.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "var(--white)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Cold-line rerouting</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>Running a new line through attics or walls to bypass the leaking under-slab pipe entirely.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>The failed run is disconnected and a new approved route supplies every affected fixture through walls, ceiling, garage, attic, or another practical path.</p>
               </div>
               <div style={{ padding: "2rem", borderRadius: "8px", border: "1px solid #e2e8f0", backgroundColor: "var(--white)" }}>
                 <h3 style={{ fontSize: "1.3rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Partial branch replacement</h3>
-                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>Replacing an entire branch of the cold-water system if multiple leaks or severe corrosion is detected.</p>
+                <p style={{ color: "#4a4a4a", lineHeight: "1.6", margin: 0 }}>A complete defined branch is replaced when repeated failures or shared access support more than one spot repair. The proposal should mark what remains in service.</p>
               </div>
             </div>
           </div>
@@ -315,10 +313,10 @@ export default function ColdWaterSlabLeak() {
             <div style={{ maxWidth: "800px", margin: "0 auto", padding: "2rem", border: "2px dashed #cbd5e1", borderRadius: "8px" }}>
               <h2 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem", textAlign: "center" }}>Tucson Water vs. Homeowner Responsibility</h2>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7", marginBottom: "1rem" }}>
-                Tucson Water maintains the public infrastructure up to and including the water meter. Property owners are generally responsible for the private service line that runs from the meter toward the property, as well as all plumbing within the home's footprint (including under the slab). 
+                Tucson Water explains that responsibility is divided at the meter: the utility maintains the service line from the water main to the meter, while the property owner is responsible for the line from the meter to the home and the plumbing within the property. Confirm the meter and valve layout because private systems and service arrangements can vary.
               </p>
               <p style={{ color: "#4a4a4a", lineHeight: "1.7", margin: 0 }}>
-                If you see water leaking on the street side of the meter, call the city. If the meter is spinning and the leak is on the house side, you need a private plumber. The precise leak location must be confirmed before responsibility is assigned.
+                Report a suspected public-side main or meter problem to Tucson Water. When controlled testing points to the private side, a licensed plumbing provider can evaluate the service line and building branches. Meter movement alone does not show which side or pipe is involved; isolation establishes that boundary.
               </p>
             </div>
           </div>
@@ -336,7 +334,7 @@ export default function ColdWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Pressure Testing</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Verify if your cold-water loop is holding static pressure.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Test a clearly defined cold-water section and document repeatable pressure behavior.</p>
                   </div>
                 </div>
               </Link>
@@ -345,7 +343,7 @@ export default function ColdWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Locate the exact failure point without breaking concrete blindly.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Confirm the affected system and narrow the suspected route before access.</p>
                   </div>
                 </div>
               </Link>
@@ -354,7 +352,7 @@ export default function ColdWaterSlabLeak() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Under-Slab Pipe Repair</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Direct spot repair for under-slab lines.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Plan controlled access, compatible pipe work, testing, concrete closure, and finishes.</p>
                   </div>
                 </div>
               </Link>
@@ -397,10 +395,10 @@ export default function ColdWaterSlabLeak() {
                   TUCSON<span style={{ color: "var(--brand-red)" }}>LEAK</span>PROS
                 </div>
                 <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>
-                  Solve the Moving Meter Mystery
+                  Find the Source of Unexplained Cold-Water Flow
                 </h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Don't let a hidden cold-water leak wash away your money. Provide your ZIP code and symptoms to connect with a leak detection specialist.
+                  Provide your ZIP code, meter observations, outdoor-system status, and any moisture or pressure changes. The next step is to identify the affected system before choosing a repair.
                 </p>
               </div>
 

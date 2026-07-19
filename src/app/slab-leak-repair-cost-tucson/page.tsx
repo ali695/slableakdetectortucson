@@ -22,7 +22,7 @@ const faqSchema = {
       "name": "How much does slab leak detection cost in Tucson?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Detection is usually a flat fee separate from the repair. It covers the technician's time, pressure testing, and acoustic or electronic line locating to pinpoint the exact failure beneath the concrete."
+        "text": "Pricing varies by provider and scope. Ask whether the detection fee includes meter review, system isolation, pressure testing, route tracing, acoustic or thermal comparison, marked findings, photographs, and a written report. Detection should narrow evidence without promising an exact point in every floor assembly."
       }
     },
     {
@@ -30,7 +30,7 @@ const faqSchema = {
       "name": "What factors affect the cost of slab leak repair?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The final cost is driven by the depth and location of the leak, the repair method chosen (spot repair vs. rerouting), the type of flooring that must be removed, and the extent of required surface restoration."
+        "text": "Important factors include diagnostic work, pipe and branch layout, location confidence, floor or wall access, repair method, materials, route length, permits, pressure testing, concrete, flooring, drywall, paint, drying, cleanup, and after-hours response."
       }
     },
     {
@@ -38,7 +38,7 @@ const faqSchema = {
       "name": "Is spot repair usually less expensive than rerouting?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Spot repair is often cheaper upfront for the plumbing work itself. However, when you factor in the cost to replace luxury tile or repair extensive concrete and drywall damage, rerouting through an attic often becomes the more cost-effective option."
+        "text": "Not always. Direct repair may use less new pipe but require flooring and concrete work. Rerouting may preserve the floor but require longer pipe, wall or attic access, insulation, penetrations, and several finish patches. Compare completed-project scopes rather than plumbing labor alone."
       }
     },
     {
@@ -46,7 +46,7 @@ const faqSchema = {
       "name": "Does the repair price include tile, concrete or drywall restoration?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Most plumbing estimates include rough concrete patching, but they rarely include finish work like matching expensive tile, replacing hardwood, or painting drywall. Always confirm what restoration is included in your written estimate."
+        "text": "There is no universal inclusion. Concrete closure, tile, carpet, wood, drywall, texture, paint, cabinets, drying, and cleanup should appear as separate included, excluded, allowance, or owner-responsibility items in the written estimate."
       }
     },
     {
@@ -54,7 +54,7 @@ const faqSchema = {
       "name": "Can the final price change after the leak is located?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. A detection service provides the exact location of the leak. Only after the location and severity are known can a plumber provide an accurate, final estimate for the repair work."
+        "text": "It can change when concealed conditions differ from the documented assumptions. The agreement should explain which findings trigger a change order, how added work is photographed and priced, and who must approve it before the scope expands."
       }
     },
     {
@@ -62,7 +62,7 @@ const faqSchema = {
       "name": "Does homeowners insurance cover slab leak damage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Homeowners insurance often covers the resulting water damage (ruined floors, cabinets) and the cost to access the pipe (jackhammering), but policies typically do not cover the cost of the plumbing pipe repair itself. Always review your specific policy."
+        "text": "Coverage depends on the policy, endorsements, cause, timing, and claim facts. Separate the failed pipe, access, resulting damage, drying, mold, matching, and code-related work, then ask the insurer how each category is handled. Do not rely on a general coverage assumption."
       }
     },
     {
@@ -70,7 +70,7 @@ const faqSchema = {
       "name": "Are emergency slab leak services more expensive?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, dispatching a crew after hours, on weekends, or on holidays usually incurs an emergency fee. If the leak can be isolated safely by shutting off the water, waiting for standard business hours can save money."
+        "text": "After-hours response may carry different rates. Active spreading water or an unsafe condition can justify immediate mitigation. When the loss is safely controlled, ask whether permanent diagnosis and repair can be scheduled separately and what emergency charges apply."
       }
     },
     {
@@ -78,7 +78,7 @@ const faqSchema = {
       "name": "Should I choose the lowest slab leak estimate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not necessarily. The lowest estimate may exclude vital services like pressure testing the remaining lines, concrete closure, or pulling necessary permits. Always compare the full scope of work, not just the bottom-line price."
+        "text": "Not by price alone. Normalize each proposal for evidence, access, pipe work, material, testing, permits, inspection, restoration, cleanup, schedule, change orders, and warranty. A lower total may simply assign more work to the homeowner or another trade."
       }
     }
   ]
@@ -232,18 +232,18 @@ export default function SlabLeakRepairCost() {
                 <tbody>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Spot repair</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Direct under-slab access by breaking concrete to fix the specific failure.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Usually lower plumbing cost, but high potential restoration cost for flooring.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Localized floor and concrete access to expose and repair a supported failure.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Less new pipe, but flooring, concrete, dust control, and finish matching may be significant.</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Rerouting</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Abandoning the under-slab line and running a new pipe above ground (attic/walls).</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Moderate to high plumbing cost, but minimal flooring restoration required.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Disconnecting the failed run and installing an approved alternate route.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>More pipe and routing labor; may trade flooring work for drywall, attic, insulation, or paint work.</td>
                   </tr>
                   <tr>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Partial <a href="/partial-repiping-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>repiping</a></td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Replacing a large section or multiple branches of failing copper.</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Higher upfront plumbing cost, but provides the best long-term security.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Replacing a clearly defined branch or group of branches when failure history supports it.</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Broader planned scope; value depends on the pipe addressed, access overlap, and remaining system condition.</td>
                   </tr>
                 </tbody>
               </table>
@@ -257,7 +257,7 @@ export default function SlabLeakRepairCost() {
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1.5rem" }}>What an Estimate Should Clarify</h2>
               <p style={{ color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6", marginBottom: "1.5rem" }}>
-                A professional slab leak quote should transparently break down exactly what is included. Ensure you check for the following:
+                A useful slab leak estimate should connect the proposed method to documented findings and separate every cost category. Check the following:
               </p>
               <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "0.75rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
                 <li style={{ display: "flex", gap: "0.5rem" }}><span style={{ color: "var(--brand-red)" }}>•</span> Detection charge</li>
@@ -275,13 +275,12 @@ export default function SlabLeakRepairCost() {
             <div>
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "#991b1b", marginBottom: "1.5rem" }}>Avoiding Misleading Low Quotes</h2>
               <p style={{ color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6", marginBottom: "1.5rem" }}>
-                A suspiciously low initial quote over the phone often hides exclusions that will balloon your final bill. Common exclusions include:
-               If you live in <a href="/service-areas/east-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>East Tucson</a>, our specialists can be dispatched immediately.</p>
+                A phone price given before the system, route, access, and finishes are known may be only a partial allowance. In <a href="/service-areas/east-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>East Tucson</a> and elsewhere in the service area, ask for the assumptions and exclusions behind any initial figure.</p>
               <ul style={{ paddingLeft: "1.5rem", display: "flex", flexDirection: "column", gap: "0.75rem", color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.6" }}>
-                <li><strong>Detection not included:</strong> The quote assumes you already know exactly where the leak is.</li>
-                <li><strong>Restoration excluded:</strong> The plumber fixes the pipe but leaves a massive open hole in your concrete and ruined tile.</li>
-                <li><strong>No additional line testing:</strong> Failing to test if the rest of the aging pipe holds pressure.</li>
-                <li><strong>Hidden emergency fees:</strong> Upcharging significantly if the repair happens after 5 PM.</li>
+                <li><strong>Detection excluded:</strong> The figure assumes another provider has already identified the affected system and area.</li>
+                <li><strong>Restoration excluded:</strong> Concrete, tile, flooring, drywall, paint, drying, or cleanup belongs to another scope.</li>
+                <li><strong>Verification unclear:</strong> The estimate does not state how the repair or reroute will be pressure-tested and inspected.</li>
+                <li><strong>Rate conditions unclear:</strong> After-hours, equipment, permit, disposal, and concealed-condition charges are not defined.</li>
               </ul>
             </div>
           </div>
@@ -294,7 +293,7 @@ export default function SlabLeakRepairCost() {
               <Calculator size={48} color="#1d4ed8" style={{ marginBottom: "1.5rem" }} />
               <h2 style={{ fontSize: "2rem", fontWeight: "800", color: "#1e3a8a", marginBottom: "1rem" }}>Insurance and Slab Leaks</h2>
               <p style={{ color: "#1e40af", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto", lineHeight: "1.7" }}>
-                Insurance coverage for slab leaks can be complex. Typically, homeowners insurance may cover the resulting "sudden and accidental" water damage (such as ruined flooring or baseboards) and the "access costs" required to reach the leak (such as tearing out drywall or concrete). However, the policy often excludes the actual plumbing repair of the failed pipe itself. You should obtain a written, professional diagnosis and contact your insurer directly.
+                Coverage depends on the policy, endorsements, cause, timing, and facts of the loss. Arizona DIFI advises consumers to review the policy and consult the insurer about water damage. Separate the failed pipe, access, resulting damage, drying, mold, matching, personal property, and code work; obtain written plumbing findings and ask how each category is handled.
               </p>
             </div>
           </div>
@@ -312,7 +311,7 @@ export default function SlabLeakRepairCost() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Pinpoint the leak to get an accurate repair estimate.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Confirm the system and narrow the evidence area before comparing repair scopes.</p>
                   </div>
                 </div>
               </Link>
@@ -321,7 +320,7 @@ export default function SlabLeakRepairCost() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Repair</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Professional direct spot repair beneath the concrete.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Compare controlled direct access with the pipe, concrete, testing, and finish work included.</p>
                   </div>
                 </div>
               </Link>
@@ -330,7 +329,7 @@ export default function SlabLeakRepairCost() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Water-Line Rerouting</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Often the most cost-effective solution when flooring is expensive.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Price an alternate route as a complete project, including walls, attic, insulation, testing, and finishes.</p>
                   </div>
                 </div>
               </Link>
@@ -373,10 +372,10 @@ export default function SlabLeakRepairCost() {
                   TUCSON<span style={{ color: "var(--brand-red)" }}>LEAK</span>PROS
                 </div>
                 <h2 style={{ color: "var(--white)", marginBottom: "1.5rem", fontSize: "3.5rem", lineHeight: "1.1", fontWeight: "800" }}>
-                  Get an Accurate Assessment Today
+                  Request a Scope-Based Repair Estimate
                 </h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  Don't rely on guesswork. Request a professional assessment to find the leak and receive a transparent repair estimate.
+                  Start with documented testing, then compare access, pipe work, restoration, permits, verification, exclusions, and warranty in writing.
                 </p>
               </div>
 

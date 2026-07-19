@@ -29,7 +29,7 @@ const faqSchema = {
       "name": "Should I call a plumber or a foundation contractor first?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If you notice a moving water meter, hear running water, or feel a warm spot on the floor, call a slab leak plumber first. If you only see structural cracking with no changes in water usage or pressure, a foundation contractor is the appropriate first call."
+        "text": "Unexplained meter flow, water-heater cycling, a warm pattern, or supply-water sound supports a plumbing assessment. Progressive cracks, displacement, or sticking doors without water-loss evidence supports structural assessment. When both occur, control active water and coordinate both disciplines."
       }
     },
     {
@@ -37,7 +37,7 @@ const faqSchema = {
       "name": "Can a slab leak cause cracks in flooring or walls?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Over time, the water escaping from a slab leak can wash away the supporting soil beneath the foundation. This loss of support can cause the concrete slab to settle and crack, which transfers upward as cracks in tile flooring or drywall."
+        "text": "Water loss and cracking can occur together, but a crack does not prove that plumbing caused structural movement. Soil, drainage, construction, shrinkage, and other conditions may be involved. Confirm the pipe loss separately and have movement evaluated by a qualified structural professional."
       }
     },
     {
@@ -45,7 +45,7 @@ const faqSchema = {
       "name": "Can foundation movement damage an under-slab water line?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Absolutely. If the soil beneath a home expands, contracts, or settles significantly, the concrete foundation shifts. This shifting exerts massive physical stress on the rigid copper pipes embedded in or beneath the slab, often shearing them and creating a leak."
+        "text": "Movement can stress concealed piping, joints, or penetrations, but the actual relationship is site-specific. A plumber can document whether a pressurized line loses water; a structural professional can evaluate movement. Neither conclusion should be inferred from cracks alone."
       }
     },
     {
@@ -61,7 +61,7 @@ const faqSchema = {
       "name": "Can pressure testing distinguish plumbing loss from structural damage?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Pressure testing isolates the plumbing system. If the plumbing lines hold pressure perfectly, the water or cracking you are seeing is not caused by a pressurized plumbing leak, pointing instead to drainage or structural issues."
+        "text": "Pressure testing can show whether a defined plumbing section held during the test. A stable result makes an active loss in that section less likely under those conditions, but it does not diagnose the foundation, rule out intermittent plumbing, or identify every possible moisture source."
       }
     },
     {
@@ -77,7 +77,7 @@ const faqSchema = {
       "name": "What happens if both plumbing and structural problems are present?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "In severe cases, a slab leak can cause foundation damage, or foundation movement can cause a slab leak. The plumbing leak must be isolated and repaired first to stop the active water loss before any permanent structural stabilization can be performed."
+        "text": "Control active water when it is causing continued damage, then share the plumbing findings with the structural professional. The sequence for permanent work depends on safety, site conditions, and the recommendations of qualified providers; one trade should not make the other trade's diagnosis."
       }
     }
   ]
@@ -173,7 +173,7 @@ export default function SlabLeakVsFoundation() {
               Sign Comparison
             </h2>
             <p style={{ textAlign: "center", color: "#4a4a4a", fontSize: "1.1rem", maxWidth: "800px", margin: "0 auto 3rem", lineHeight: "1.7" }}>
-              While some symptoms overlap, most issues lean heavily toward either plumbing or structure. Avoid presenting any single sign as a definitive diagnosis without testing.
+              Some observations suggest which discipline should assess the property first, but symptoms can overlap. Use documented plumbing tests and a separate structural evaluation instead of treating one crack, damp spot, sound, or meter reading as a complete diagnosis.
             </p>
             <div style={{ overflowX: "auto" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", minWidth: "800px", borderRadius: "8px", overflow: "hidden", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}>
@@ -187,7 +187,7 @@ export default function SlabLeakVsFoundation() {
                 <tbody>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
                     <td style={{ padding: "1.5rem", backgroundColor: "#fafafa", fontWeight: 700 }}>Moving water meter</td>
-                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Strong indicator</td>
+                    <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Confirms metered flow after normal uses are controlled</td>
                     <td style={{ padding: "1.5rem", backgroundColor: "#ffffff" }}>Not normally caused by structure</td>
                   </tr>
                   <tr style={{ borderBottom: "1px solid #e2e8f0" }}>
@@ -287,7 +287,7 @@ export default function SlabLeakVsFoundation() {
                 <h3 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", margin: 0 }}>Plumbing Detection</h3>
               </div>
               <p style={{ color: "#4a4a4a", fontSize: "1.1rem", lineHeight: "1.7" }}>
-                A plumber will check the meter, perform <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure testing</a>, isolate the hot and cold lines, and use electronic locating to determine if water is escaping from the pressurized system beneath the slab.
+                A plumber checks fixtures and automatic systems, observes the meter, performs <a href="/water-line-pressure-testing-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>pressure testing</a>, and isolates service, hot, cold, or accessible branches. Tracing, acoustic, thermal, and moisture evidence may then narrow a suspected concealed route.
               </p>
             </div>
             
@@ -297,7 +297,7 @@ export default function SlabLeakVsFoundation() {
                 <h3 style={{ fontSize: "1.8rem", fontWeight: "800", color: "var(--dark-charcoal)", margin: 0 }}>Structural Assessment</h3>
               </div>
               <p style={{ color: "#4a4a4a", fontSize: "1.1rem", lineHeight: "1.7" }}>
-                A foundation contractor or structural engineer evaluates soil movement, concrete cracks, and load-bearing concerns. We do not attempt structural diagnosis on our plumbing visits, but we can rule out plumbing leaks.
+                A qualified structural professional evaluates crack patterns, displacement, floor levels, drainage, soil conditions, and building performance. A plumbing visit can document whether defined water lines held during testing; it cannot certify structural condition or rule on the cause of movement.
               </p>
             </div>
           </div>
@@ -310,9 +310,9 @@ export default function SlabLeakVsFoundation() {
               <AlertTriangle size={32} color="#f59e0b" style={{ marginBottom: "1rem" }} />
               <h3 style={{ fontSize: "1.5rem", fontWeight: "800", color: "var(--dark-charcoal)", marginBottom: "1rem" }}>Terminology Warning</h3>
               <p style={{ color: "#4a4a4a", fontSize: "1.1rem", margin: 0 }}>
-                <strong>"<a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Slab leak repair</a>"</strong> is plumbing work to fix a broken water pipe beneath the floor. 
+                <strong>&ldquo;<a href="/slab-leak-repair-tucson/" style={{ color: "var(--brand-red)", textDecoration: "underline", fontWeight: "600" }}>Slab leak repair</a>&rdquo;</strong> is plumbing work to fix a broken water pipe beneath the floor.
                 <br/><br/>
-                <strong>"Slab repair"</strong> or "concrete repair" usually refers to concrete or foundation work to fix the structure itself. Ensure you are calling the right professional for your specific need!
+                <strong>&ldquo;Slab repair&rdquo;</strong> or &ldquo;foundation repair&rdquo; generally refers to concrete or structural work. Ask every provider to state whether the scope addresses plumbing, finishes, drainage, concrete, or structural performance so similarly named services are not confused.
               </p>
             </div>
           </div>
@@ -330,7 +330,7 @@ export default function SlabLeakVsFoundation() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Slab Leak Detection</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Rule out a plumbing failure definitively.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Test defined water systems and document whether active loss is supported.</p>
                   </div>
                 </div>
               </Link>
@@ -339,7 +339,7 @@ export default function SlabLeakVsFoundation() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Under-Slab Pipe Repair</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Fixing the plumbing line beneath the concrete.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Plan direct pipe access only after the failed system and evidence area are established.</p>
                   </div>
                 </div>
               </Link>
@@ -348,7 +348,7 @@ export default function SlabLeakVsFoundation() {
                 <div style={{ border: "1px solid #e2e8f0", borderRadius: "8px", overflow: "hidden", transition: "transform 0.2s" }} className="hover-lift">
                   <div style={{ padding: "1.5rem", backgroundColor: "var(--white)" }}>
                     <h3 style={{ fontSize: "1.25rem", fontWeight: "800", color: "var(--brand-red)", marginBottom: "0.5rem" }}>Signs of a Slab Leak</h3>
-                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Review all the common plumbing symptoms.</p>
+                    <p style={{ color: "#4a4a4a", fontSize: "0.95rem", margin: 0 }}>Compare meter, temperature, sound, moisture, heater, and pressure evidence.</p>
                   </div>
                 </div>
               </Link>
@@ -394,7 +394,7 @@ export default function SlabLeakVsFoundation() {
                   Need a Plumbing Assessment?
                 </h2>
                 <p style={{ fontSize: "1.1rem", marginBottom: "2rem", maxWidth: "600px", color: "#e4e4e7", lineHeight: "1.6" }}>
-                  If you have a moving meter, running water sound, or warm floor, let us isolate your plumbing system to see if water is escaping beneath your slab.
+                  If you have unexplained meter flow, supply-water sounds, a warm floor, or damp finishes, request documented plumbing isolation. Structural movement still requires a separate qualified assessment.
                 </p>
               </div>
 
