@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Request Slab Leak Detection in Tucson, AZ',
     description: 'Request help with warm flooring, hidden water loss, meter movement or a suspected pipe leak beneath your Tucson home’s concrete slab.',
-    url: 'https://tucsonslableakpros.com/request-slab-leak-inspection/',
+    url: 'https://slableakdetectortucson.pages.dev/request-slab-leak-inspection/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -40,7 +40,7 @@ const contactSchema = {
 export default function Contact() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Request Slab Leak Detection in Tucson, AZ", "description": "Request help with warm flooring, hidden water loss, meter movement or a suspected pipe leak beneath your Tucson home\u2019s concrete slab.", "url": "https://tucsonslableakpros.com/request-slab-leak-inspection/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Request Slab Leak Detection in Tucson, AZ", "description": "Request help with warm flooring, hidden water loss, meter movement or a suspected pipe leak beneath your Tucson home\u2019s concrete slab.", "url": "https://slableakdetectortucson.pages.dev/request-slab-leak-inspection/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
       <main>
         {/* Hero Section */}

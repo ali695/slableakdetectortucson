@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Partial Repiping Tucson | Replace Damaged Water Lines',
     description: 'Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.',
-    url: 'https://tucsonslableakpros.com/partial-repiping-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/partial-repiping-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -88,7 +88,7 @@ const faqSchema = {
 export default function PartialRepiping() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Partial Repiping Tucson | Replace Damaged Water Lines", "description": "Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.", "url": "https://tucsonslableakpros.com/partial-repiping-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Partial Repiping Tucson | Replace Damaged Water Lines", "description": "Replace selected plumbing branches or recurring problem sections without automatically repiping the entire Tucson home.", "url": "https://slableakdetectortucson.pages.dev/partial-repiping-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

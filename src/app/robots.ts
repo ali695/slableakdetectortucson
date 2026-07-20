@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tucsonslableakpros.com/sitemap.xml",
-    host: "https://tucsonslableakpros.com",
+    sitemap: "https://slableakdetectortucson.pages.dev/sitemap.xml",
+    host: "slableakdetectortucson.pages.dev",
   };
 }

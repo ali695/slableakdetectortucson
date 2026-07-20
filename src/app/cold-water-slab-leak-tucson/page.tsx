@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Cold-Water Slab Leak Tucson | Detection & Repair',
     description: 'Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.',
-    url: 'https://tucsonslableakpros.com/cold-water-slab-leak-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/cold-water-slab-leak-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -109,7 +109,7 @@ const faqSchema = {
 export default function ColdWaterSlabLeak() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Cold-Water Slab Leak Tucson | Detection & Repair", "description": "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.", "url": "https://tucsonslableakpros.com/cold-water-slab-leak-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Cold-Water Slab Leak Tucson | Detection & Repair", "description": "Investigate unexplained water use, pressure loss or damp flooring caused by a possible cold-water line leak beneath a Tucson home.", "url": "https://slableakdetectortucson.pages.dev/cold-water-slab-leak-tucson/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Cold-Water Slab Leaks' }

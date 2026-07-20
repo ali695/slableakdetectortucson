@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Catalina Foothills, Tucson',
     description: 'Find slab leak detection and repair services across Catalina Foothills, Sabino Canyon, Tanque Verde and Northeast Tucson.',
-    url: 'https://tucsonslableakpros.com/service-areas/catalina-foothills/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/catalina-foothills/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function CatalinaFoothillsNortheastTucson() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Catalina Foothills, Tucson", "description": "Find slab leak detection and repair services across Catalina Foothills, Sabino Canyon, Tanque Verde and Northeast Tucson.", "url": "https://tucsonslableakpros.com/service-areas/catalina-foothills/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Catalina Foothills, Tucson", "description": "Find slab leak detection and repair services across Catalina Foothills, Sabino Canyon, Tanque Verde and Northeast Tucson.", "url": "https://slableakdetectortucson.pages.dev/service-areas/catalina-foothills/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

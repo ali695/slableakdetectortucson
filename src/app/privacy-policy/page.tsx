@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy-policy/" },
   title,
   description,
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
   ...pageSocialMetadata(title, description, "/privacy-policy/"),
 };
 

@@ -20,13 +20,13 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://tucsonslableakpros.com/"
+        "item": "https://slableakdetectortucson.pages.dev/"
       },
       ...items.map((item, index) => ({
         "@type": "ListItem",
         "position": index + 2,
         "name": item.label,
-        "item": item.href ? `https://tucsonslableakpros.com${item.href}` : undefined
+        "item": item.href ? `https://slableakdetectortucson.pages.dev${item.href}` : undefined
       }))
     ]
   };

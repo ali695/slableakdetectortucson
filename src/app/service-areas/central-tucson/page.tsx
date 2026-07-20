@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Central Tucson, AZ',
     description: 'Request slab leak detection and repair across Downtown, Midtown, Blenman-Elm and the University area, including ZIPs 85701, 85712, 85716 and 85719.',
-    url: 'https://tucsonslableakpros.com/service-areas/central-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/central-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function CentralTucson() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Central Tucson, AZ", "description": "Request slab leak detection and repair across Downtown, Midtown, Blenman-Elm and the University area, including ZIPs 85701, 85712, 85716 and 85719.", "url": "https://tucsonslableakpros.com/service-areas/central-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Central Tucson, AZ", "description": "Request slab leak detection and repair across Downtown, Midtown, Blenman-Elm and the University area, including ZIPs 85701, 85712, 85716 and 85719.", "url": "https://slableakdetectortucson.pages.dev/service-areas/central-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

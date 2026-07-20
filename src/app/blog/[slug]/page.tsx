@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: article.title,
       description: article.description,
       type: "article",
-      url: `https://tucsonslableakpros.com/blog/${article.slug}/`,
+      url: `https://slableakdetectortucson.pages.dev/blog/${article.slug}/`,
       images: [{ url: article.heroImage, alt: article.heroAlt }],
     },
     twitter: { card: "summary_large_image", title: article.title, description: article.description, images: [article.heroImage] },

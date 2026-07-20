@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Electronic Leak Detection Tucson | Acoustic Testing',
     description: 'Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.',
-    url: 'https://tucsonslableakpros.com/electronic-leak-detection-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/electronic-leak-detection-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -88,7 +88,7 @@ const faqSchema = {
 export default function ElectronicLeakDetection() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Electronic Leak Detection Tucson | Acoustic Testing", "description": "Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.", "url": "https://tucsonslableakpros.com/electronic-leak-detection-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Electronic Leak Detection Tucson | Acoustic Testing", "description": "Learn how electronic and acoustic testing can help narrow down hidden pressurized water-line leaks beneath tile and concrete floors.", "url": "https://slableakdetectortucson.pages.dev/electronic-leak-detection-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

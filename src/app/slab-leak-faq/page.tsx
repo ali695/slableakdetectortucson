@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak FAQ | 70 Tucson Questions Answered',
     description: 'Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.',
-    url: 'https://tucsonslableakpros.com/slab-leak-faq/',
+    url: 'https://slableakdetectortucson.pages.dev/slab-leak-faq/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export default function SlabLeakFaq() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak FAQ | 70 Tucson Questions Answered", "description": "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.", "url": "https://tucsonslableakpros.com/slab-leak-faq/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak FAQ | 70 Tucson Questions Answered", "description": "Find clear answers to 70 common questions about slab leak symptoms, detection, repair, costs, emergencies, insurance and Tucson service areas.", "url": "https://slableakdetectortucson.pages.dev/slab-leak-faq/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'FAQs' }

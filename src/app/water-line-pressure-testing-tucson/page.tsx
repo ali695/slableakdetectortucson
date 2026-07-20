@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water-Line Pressure Testing Tucson | Leak Isolation',
     description: 'Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.',
-    url: 'https://tucsonslableakpros.com/water-line-pressure-testing-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/water-line-pressure-testing-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -88,7 +88,7 @@ const faqSchema = {
 export default function WaterLinePressureTesting() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Pressure Testing Tucson | Leak Isolation", "description": "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.", "url": "https://tucsonslableakpros.com/water-line-pressure-testing-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Pressure Testing Tucson | Leak Isolation", "description": "Confirm hidden water loss and isolate affected hot or cold plumbing lines with residential water-line pressure testing in Tucson.", "url": "https://slableakdetectortucson.pages.dev/water-line-pressure-testing-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

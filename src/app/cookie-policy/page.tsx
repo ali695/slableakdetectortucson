@@ -1,42 +1,73 @@
-import React from 'react';
-import { Metadata } from 'next';
-import { pageSocialMetadata } from '@/lib/metadata';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { pageSocialMetadata } from "@/lib/metadata";
+
+const title = "Cookie Policy | Tucson Leak Pros";
+const description = "Learn about cookies, local browser features and infrastructure technologies associated with this website.";
+const headingStyle = { marginTop: "2.25rem", marginBottom: "1rem", color: "var(--brand-red)" };
 
 export const metadata: Metadata = {
   alternates: { canonical: "/cookie-policy/" },
-  title: 'Cookie Policy | Tucson Leak Pros',
-  description: 'Learn about how we use cookies to improve your experience on our website.',
-  robots: { index: true, follow: true },
-  ...pageSocialMetadata('Cookie Policy | Tucson Leak Pros', 'Learn about how we use cookies to improve your experience on our website.', '/cookie-policy/'),
+  title,
+  description,
+  robots: { index: false, follow: true },
+  ...pageSocialMetadata(title, description, "/cookie-policy/"),
 };
 
 export default function CookiePolicy() {
   return (
-    <main style={{ backgroundColor: "#f8fafc", padding: "4rem 0", minHeight: "80vh" }}>
-      <div className="container" style={{ maxWidth: "800px", backgroundColor: "var(--white)", padding: "3rem", borderRadius: "8px", boxShadow: "0 4px 15px rgba(0,0,0,0.05)" }}>
-        <h1 style={{ fontSize: "2.5rem", marginBottom: "2rem", color: "var(--dark-charcoal)" }}>Cookie Policy</h1>
-        
-        <div style={{ color: "#4a4a4a", fontSize: "1.05rem", lineHeight: "1.7" }}>
-          <p><strong>Last Updated: July 2026</strong></p>
-          
-          <h3 style={{ marginTop: "2rem", marginBottom: "1rem", color: "var(--brand-red)" }}>1. What are Cookies?</h3>
-          <p>Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site.</p>
+    <main className="legal-page">
+      <article className="container legal-card">
+        <h1>Cookie Policy</h1>
+        <div className="legal-content">
+          <p><strong>Last updated: <time dateTime="2026-07-19">July 19, 2026</time></strong></p>
 
-          <h3 style={{ marginTop: "2rem", marginBottom: "1rem", color: "var(--brand-red)" }}>2. How We Use Cookies</h3>
-          <p>We use cookies for a variety of reasons detailed below. Unfortunately, in most cases, there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not, in case they are used to provide a service that you use.</p>
-          <ul style={{ paddingLeft: "1.5rem", marginBottom: "1rem" }}>
-            <li><strong>Essential Cookies:</strong> These are cookies that are required for the operation of our website.</li>
-            <li><strong>Analytical/Performance Cookies:</strong> They allow us to recognize and count the number of visitors and to see how visitors move around our website when they are using it.</li>
-            <li><strong>Functionality Cookies:</strong> These are used to recognize you when you return to our website.</li>
-          </ul>
+          <p>
+            This policy explains how cookies and similar browser technologies may be associated with the Tucson
+            Leak Pros website. It should be read with the <Link href="/privacy-policy/">Privacy Policy</Link>.
+          </p>
 
-          <h3 style={{ marginTop: "2rem", marginBottom: "1rem", color: "var(--brand-red)" }}>3. Disabling Cookies</h3>
-          <p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit.</p>
+          <h2 style={headingStyle}>1. What Cookies Are</h2>
+          <p>
+            Cookies are small data files that a website or service provider can store through a browser. Related
+            technologies include local storage, session storage and security identifiers. They can support site
+            delivery, remember a user-requested setting, help prevent abuse or measure website operation.
+          </p>
 
-          <h3 style={{ marginTop: "2rem", marginBottom: "1rem", color: "var(--brand-red)" }}>4. More Information</h3>
-          <p>Hopefully, that has clarified things for you. If there is something that you aren't sure whether you need or not, it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</p>
+          <h2 style={headingStyle}>2. Current Website Use</h2>
+          <p>
+            The current website code does not intentionally install advertising or behavioral-profiling cookies and
+            does not include a third-party analytics tag. Interactive form selections are handled in the browser.
+            The hosting and security infrastructure may still process temporary identifiers, request information or
+            similar technical data when necessary to deliver pages, balance traffic, detect abuse and protect the
+            service.
+          </p>
+
+          <h2 style={headingStyle}>3. Third-Party Content</h2>
+          <p>
+            Some pages may display or link to content operated by another service, such as an embedded map. A third
+            party may apply its own cookies or similar technologies when its content loads or when you follow its
+            link. Those technologies are governed by that provider&apos;s policies and browser controls.
+          </p>
+
+          <h2 style={headingStyle}>4. Browser Controls</h2>
+          <p>
+            Most browsers allow you to review, delete or block cookies and site data. Blocking all storage may
+            affect security features or interactive functions. Consult your browser&apos;s privacy or site-data
+            settings for instructions specific to that browser.
+          </p>
+
+          <h2 style={headingStyle}>5. Future Changes</h2>
+          <p>
+            If optional analytics, advertising or other non-essential technologies are introduced, this policy and
+            any legally required notice or consent controls should be updated before those technologies are used.
+            The date above identifies the current version.
+          </p>
+
+          <h2 style={headingStyle}>6. Contact</h2>
+          <p>Questions about this policy can be submitted through the <Link href="/contact/">contact page</Link>.</p>
         </div>
-      </div>
+      </article>
     </main>
   );
 }

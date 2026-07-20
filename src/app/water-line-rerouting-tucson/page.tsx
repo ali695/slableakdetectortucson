@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Water-Line Rerouting Tucson | Slab Leak Pipe Bypass',
     description: 'Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.',
-    url: 'https://tucsonslableakpros.com/water-line-rerouting-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/water-line-rerouting-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -96,7 +96,7 @@ const faqSchema = {
 export default function WaterLineRerouting() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass", "description": "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.", "url": "https://tucsonslableakpros.com/water-line-rerouting-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Water-Line Rerouting Tucson | Slab Leak Pipe Bypass", "description": "Explore water-line rerouting in Tucson to bypass a leaking under-slab pipe through a more accessible wall, ceiling or attic route.", "url": "https://slableakdetectortucson.pages.dev/water-line-rerouting-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

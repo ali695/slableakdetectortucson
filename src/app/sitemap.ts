@@ -3,7 +3,7 @@ import { blogArticles } from "@/data/blogArticles";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://tucsonslableakpros.com";
+const baseUrl = "https://slableakdetectortucson.pages.dev";
 const contentUpdatedAt = new Date("2026-07-19T00:00:00.000Z");
 
 type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>;
@@ -71,17 +71,6 @@ const sitemapGroups: SitemapGroup[] = [
     paths: blogArticles.map((article) => `/blog/${article.slug}`),
     changeFrequency: "monthly",
     priority: 0.7,
-  },
-  {
-    paths: [
-      "/privacy-policy",
-      "/terms-and-conditions",
-      "/service-disclaimer",
-      "/accessibility",
-      "/cookie-policy",
-    ],
-    changeFrequency: "yearly",
-    priority: 0.3,
   },
 ];
 

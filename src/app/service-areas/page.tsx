@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Service Areas in Tucson, AZ',
     description: 'Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.',
-    url: 'https://tucsonslableakpros.com/service-areas/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -49,7 +49,7 @@ const areaSchema = {
 export default function ServiceAreas() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Service Areas in Tucson, AZ", "description": "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Service Areas in Tucson, AZ", "description": "Check slab leak service availability across Tucson, Oro Valley, Catalina Foothills, Rita Ranch and surrounding ZIP codes.", "url": "https://slableakdetectortucson.pages.dev/service-areas/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(areaSchema) }} />
       <main>
         {/* 1. Hero Section (FCS Style) */}

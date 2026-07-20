@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection North Tucson & Casas Adobes',
     description: 'Find slab leak detection, pressure testing and pipe repair services across North Tucson, Flowing Wells and Casas Adobes.',
-    url: 'https://tucsonslableakpros.com/service-areas/north-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/north-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function NorthTucsonCasasAdobes() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection North Tucson & Casas Adobes", "description": "Find slab leak detection, pressure testing and pipe repair services across North Tucson, Flowing Wells and Casas Adobes.", "url": "https://tucsonslableakpros.com/service-areas/north-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection North Tucson & Casas Adobes", "description": "Find slab leak detection, pressure testing and pipe repair services across North Tucson, Flowing Wells and Casas Adobes.", "url": "https://slableakdetectortucson.pages.dev/service-areas/north-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

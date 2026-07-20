@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Hot-Water Slab Leak Tucson | Warm Floor Detection',
     description: 'Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.',
-    url: 'https://tucsonslableakpros.com/hot-water-slab-leak-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/hot-water-slab-leak-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -109,7 +109,7 @@ const faqSchema = {
 export default function HotWaterSlabLeak() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Hot-Water Slab Leak Tucson | Warm Floor Detection", "description": "Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.", "url": "https://tucsonslableakpros.com/hot-water-slab-leak-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Hot-Water Slab Leak Tucson | Warm Floor Detection", "description": "Warm flooring or frequent water-heater operation may point to a hidden hot-water line leak. Explore detection and repair options in Tucson.", "url": "https://slableakdetectortucson.pages.dev/hot-water-slab-leak-tucson/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Hot-Water Slab Leaks' }

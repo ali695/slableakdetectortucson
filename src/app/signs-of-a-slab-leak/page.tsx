@@ -90,7 +90,7 @@ const faqSchema = {
 export default function SignsOfSlabLeak() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Signs of a Slab Leak | Tucson Homeowner Guide", "description": "Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.", "url": "https://tucsonslableakpros.com/signs-of-a-slab-leak/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Signs of a Slab Leak | Tucson Homeowner Guide", "description": "Learn the warning signs of a slab leak, including warm floors, meter movement, damp flooring, running-water sounds and pressure loss.", "url": "https://slableakdetectortucson.pages.dev/signs-of-a-slab-leak/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Signs of a Slab Leak' }

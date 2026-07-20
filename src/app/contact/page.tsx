@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Tucson Leak Pros | Request Slab Leak Help',
     description: 'Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.',
-    url: 'https://tucsonslableakpros.com/contact/',
+    url: 'https://slableakdetectortucson.pages.dev/contact/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -39,7 +39,7 @@ const contactSchema = {
 export default function Contact() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Contact Tucson Leak Pros | Request Slab Leak Help", "description": "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.", "url": "https://tucsonslableakpros.com/contact/"}) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Contact Tucson Leak Pros | Request Slab Leak Help", "description": "Contact Tucson Leak Pros about a suspected slab leak. Provide your ZIP code and symptoms to check local service availability.", "url": "https://slableakdetectortucson.pages.dev/contact/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
       <main>
         {/* Hero Section */}

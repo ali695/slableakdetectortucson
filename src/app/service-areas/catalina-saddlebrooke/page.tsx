@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Catalina & SaddleBrooke, AZ',
     description: 'Check slab leak detection, pressure testing and repair availability for homes in Catalina, SaddleBrooke and ZIP code 85739.',
-    url: 'https://tucsonslableakpros.com/service-areas/catalina-saddlebrooke/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/catalina-saddlebrooke/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function CatalinaSaddleBrooke() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Catalina & SaddleBrooke, AZ", "description": "Check slab leak detection, pressure testing and repair availability for homes in Catalina, SaddleBrooke and ZIP code 85739.", "url": "https://tucsonslableakpros.com/service-areas/catalina-saddlebrooke/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Catalina & SaddleBrooke, AZ", "description": "Check slab leak detection, pressure testing and repair availability for homes in Catalina, SaddleBrooke and ZIP code 85739.", "url": "https://slableakdetectortucson.pages.dev/service-areas/catalina-saddlebrooke/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

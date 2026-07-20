@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Repair Tucson | Pipe Repair & Rerouting',
     description: 'Review slab leak repair options in Tucson, including controlled pipe access, spot repair, water-line rerouting and partial pipe replacement.',
-    url: 'https://tucsonslableakpros.com/slab-leak-repair-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/slab-leak-repair-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -88,7 +88,7 @@ const faqSchema = {
 export default function SlabLeakRepair() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Repair Tucson | Pipe Repair & Rerouting", "description": "Review slab leak repair options in Tucson, including controlled pipe access, spot repair, water-line rerouting and partial pipe replacement.", "url": "https://tucsonslableakpros.com/slab-leak-repair-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Repair Tucson | Pipe Repair & Rerouting", "description": "Review slab leak repair options in Tucson, including controlled pipe access, spot repair, water-line rerouting and partial pipe replacement.", "url": "https://slableakdetectortucson.pages.dev/slab-leak-repair-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

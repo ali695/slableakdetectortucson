@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection West Tucson & Picture Rocks',
     description: 'Request hidden water-line detection, pressure testing and pipe repair across West Tucson, Starr Pass and Picture Rocks.',
-    url: 'https://tucsonslableakpros.com/service-areas/west-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/west-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function WestTucsonPictureRocks() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection West Tucson & Picture Rocks", "description": "Request hidden water-line detection, pressure testing and pipe repair across West Tucson, Starr Pass and Picture Rocks.", "url": "https://tucsonslableakpros.com/service-areas/west-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection West Tucson & Picture Rocks", "description": "Request hidden water-line detection, pressure testing and pipe repair across West Tucson, Starr Pass and Picture Rocks.", "url": "https://slableakdetectortucson.pages.dev/service-areas/west-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

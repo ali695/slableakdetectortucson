@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: article.title,
     description: article.description,
     type: "article",
-    url: "https://tucsonslableakpros.com/blog/understanding-slab-leaks/",
+    url: "https://slableakdetectortucson.pages.dev/blog/understanding-slab-leaks/",
     images: [{ url: article.heroImage, alt: article.heroAlt }],
   },
   twitter: { card: "summary_large_image", title: article.title, description: article.description, images: [article.heroImage] },

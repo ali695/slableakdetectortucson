@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Rita Ranch & Southeast Tucson',
     description: 'Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.',
-    url: 'https://tucsonslableakpros.com/service-areas/rita-ranch/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/rita-ranch/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function RitaRanchSoutheastTucson() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Rita Ranch & Southeast Tucson", "description": "Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.", "url": "https://tucsonslableakpros.com/service-areas/rita-ranch/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Rita Ranch & Southeast Tucson", "description": "Find slab leak detection, water-line testing and repair services across Rita Ranch and Southeast Tucson, including ZIPs 85730 and 85747.", "url": "https://slableakdetectortucson.pages.dev/service-areas/rita-ranch/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

@@ -28,12 +28,12 @@ export default function BlogArticlePage({ article }: { article: BlogArticle }) {
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    image: `https://tucsonslableakpros.com${article.heroImage}`,
+    image: `https://slableakdetectortucson.pages.dev${article.heroImage}`,
     datePublished: "2026-07-19",
     dateModified: "2026-07-19",
     author: { "@type": "Organization", name: "Tucson Leak Pros" },
     publisher: { "@type": "Organization", name: "Tucson Leak Pros" },
-    mainEntityOfPage: `https://tucsonslableakpros.com/blog/${article.slug}/`,
+    mainEntityOfPage: `https://slableakdetectortucson.pages.dev/blog/${article.slug}/`,
   };
 
   const faqSchema = {

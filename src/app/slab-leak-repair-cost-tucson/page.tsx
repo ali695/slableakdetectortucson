@@ -90,7 +90,7 @@ const faqSchema = {
 export default function SlabLeakRepairCost() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Repair Cost Tucson | Price Factors Explained", "description": "Understand how leak location, detection, pipe condition, floor access, repair method and restoration affect slab leak repair costs in Tucson.", "url": "https://tucsonslableakpros.com/slab-leak-repair-cost-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Repair Cost Tucson | Price Factors Explained", "description": "Understand how leak location, detection, pipe condition, floor access, repair method and restoration affect slab leak repair costs in Tucson.", "url": "https://slableakdetectortucson.pages.dev/slab-leak-repair-cost-tucson/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Slab Leak Repair Cost' }

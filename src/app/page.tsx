@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros',
     description: 'Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.',
-    url: 'https://tucsonslableakpros.com/',
+    url: 'https://slableakdetectortucson.pages.dev/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -36,7 +36,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Tucson Leak Pros",
-  "image": "https://tucsonslableakpros.com/images/services_hub_hero.webp",
+  "image": "https://slableakdetectortucson.pages.dev/images/services_hub_hero.webp",
   "telephone": "(520) 555-0199",
   "address": {
     "@type": "PostalAddress",
@@ -68,7 +68,7 @@ const localBusinessSchema = {
 export default function Home() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros", "description": "Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.", "url": "https://tucsonslableakpros.com/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection & Repair Tucson, AZ | Tucson Leak Pros", "description": "Suspect a hidden pipe leak? Request slab leak detection, pressure testing, pipe repair or water-line rerouting across Tucson, Arizona.", "url": "https://slableakdetectortucson.pages.dev/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <main>
         {/* 1. New Hero Section with Dark Overlay & Form Box */}

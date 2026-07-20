@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Tucson, AZ | Locate Hidden Leaks',
     description: 'Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.',
-    url: 'https://tucsonslableakpros.com/slab-leak-detection-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/slab-leak-detection-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -96,7 +96,7 @@ const faqSchema = {
 export default function SlabLeakDetection() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks", "description": "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.", "url": "https://tucsonslableakpros.com/slab-leak-detection-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Tucson, AZ | Locate Hidden Leaks", "description": "Locate suspected water-line leaks beneath concrete using pressure testing, line isolation and professional leak detection methods in Tucson.", "url": "https://slableakdetectortucson.pages.dev/slab-leak-detection-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

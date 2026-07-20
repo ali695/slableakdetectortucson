@@ -90,7 +90,7 @@ const faqSchema = {
 export default function SlabLeakVsFoundation() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak vs. Foundation Problem | Know the Difference", "description": "Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.", "url": "https://tucsonslableakpros.com/slab-leak-vs-foundation-problem/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak vs. Foundation Problem | Know the Difference", "description": "Compare plumbing slab leak symptoms with structural foundation problems and learn whether to contact a plumber or foundation specialist.", "url": "https://slableakdetectortucson.pages.dev/slab-leak-vs-foundation-problem/"}) }} />
       <Breadcrumbs items={[
         { label: 'Slab Leak Guide', href: '/slab-leak-faq/' },
         { label: 'Slab Leak vs. Foundation Problem' }

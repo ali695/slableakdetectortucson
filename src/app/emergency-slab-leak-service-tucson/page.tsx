@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Emergency Slab Leak Service Tucson, AZ',
     description: 'Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.',
-    url: 'https://tucsonslableakpros.com/emergency-slab-leak-service-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/emergency-slab-leak-service-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -88,7 +88,7 @@ const faqSchema = {
 export default function EmergencySlabLeakService() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Emergency Slab Leak Service Tucson, AZ", "description": "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.", "url": "https://tucsonslableakpros.com/emergency-slab-leak-service-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Emergency Slab Leak Service Tucson, AZ", "description": "Get help with active water spreading, rapid meter movement, sudden pressure loss or another urgent suspected slab leak in Tucson.", "url": "https://slableakdetectortucson.pages.dev/emergency-slab-leak-service-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>

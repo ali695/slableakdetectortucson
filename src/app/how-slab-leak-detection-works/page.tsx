@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Slab Leak Detection Works in Tucson',
     description: 'See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.',
-    url: 'https://tucsonslableakpros.com/how-slab-leak-detection-works/',
+    url: 'https://slableakdetectortucson.pages.dev/how-slab-leak-detection-works/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -61,7 +61,7 @@ const howToSchema = {
 export default function HowItWorks() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "How Slab Leak Detection Works in Tucson", "description": "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.", "url": "https://tucsonslableakpros.com/how-slab-leak-detection-works/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "How Slab Leak Detection Works in Tucson", "description": "See how meter checks, pressure testing, line isolation and electronic locating help identify hidden water-line leaks beneath concrete.", "url": "https://slableakdetectortucson.pages.dev/how-slab-leak-detection-works/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <main>
         {/* Hero Section */}

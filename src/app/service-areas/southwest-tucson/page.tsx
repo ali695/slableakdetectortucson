@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Southwest Tucson, AZ',
     description: 'Check slab leak service availability across Drexel Heights, Tucson Estates, Three Points and Valencia West in Southwest Tucson.',
-    url: 'https://tucsonslableakpros.com/service-areas/southwest-tucson/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/southwest-tucson/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function SouthwestTucson() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Southwest Tucson, AZ", "description": "Check slab leak service availability across Drexel Heights, Tucson Estates, Three Points and Valencia West in Southwest Tucson.", "url": "https://tucsonslableakpros.com/service-areas/southwest-tucson/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Southwest Tucson, AZ", "description": "Check slab leak service availability across Drexel Heights, Tucson Estates, Three Points and Valencia West in Southwest Tucson.", "url": "https://slableakdetectortucson.pages.dev/service-areas/southwest-tucson/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}

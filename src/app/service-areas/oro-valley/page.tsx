@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Slab Leak Detection Oro Valley & Northwest Tucson',
     description: 'Request hidden water-line detection, slab leak repair and rerouting across Oro Valley, Rancho Vistoso and Northwest Tucson ZIP codes.',
-    url: 'https://tucsonslableakpros.com/service-areas/oro-valley/',
+    url: 'https://slableakdetectortucson.pages.dev/service-areas/oro-valley/',
     siteName: 'Tucson Leak Pros',
     locale: 'en_US',
     images: [
@@ -90,7 +90,7 @@ const faqSchema = {
 export default function OroValleyNorthwestTucson() {
   return (
     <>
-<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Oro Valley & Northwest Tucson", "description": "Request hidden water-line detection, slab leak repair and rerouting across Oro Valley, Rancho Vistoso and Northwest Tucson ZIP codes.", "url": "https://tucsonslableakpros.com/service-areas/oro-valley/"}) }} />
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context": "https://schema.org", "@type": "WebPage", "name": "Slab Leak Detection Oro Valley & Northwest Tucson", "description": "Request hidden water-line detection, slab leak repair and rerouting across Oro Valley, Rancho Vistoso and Northwest Tucson ZIP codes.", "url": "https://slableakdetectortucson.pages.dev/service-areas/oro-valley/"}) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <main>
         {/* Hero Section */}
