@@ -41,7 +41,8 @@ const organizationSchema = {
   "url": "https://slableakdetectortucson.pages.dev/",
   "logo": "https://slableakdetectortucson.pages.dev/images/services_hub_hero.webp",
   "sameAs": [
-    "https://www.facebook.com/tucsonleakpros"
+    "https://www.facebook.com/tucsonleakpros",
+    "https://www.instagram.com/slableakdetectiontucson/"
   ],
   "contactPoint": {
     "@type": "ContactPoint",

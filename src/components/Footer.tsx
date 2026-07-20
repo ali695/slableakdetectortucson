@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import FacebookIcon from '@/components/FacebookIcon';
+import InstagramIcon from '@/components/InstagramIcon';
 
 const facebookUrl = 'https://www.facebook.com/tucsonleakpros';
+const instagramUrl = 'https://www.instagram.com/slableakdetectiontucson/';
 
 export default function Footer() {
   return (
@@ -19,16 +21,6 @@ export default function Footer() {
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
              <a href="tel:5205550199" className="btn-primary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>CALL NOW</a>
              <Link href="/contact/" className="btn-secondary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>REQUEST LEAK DETECTION</Link>
-             <a
-               href={facebookUrl}
-               target="_blank"
-               rel="noopener noreferrer"
-               className="footer-facebook-link"
-               aria-label="Visit Tucson Leak Pros on Facebook"
-               title="Facebook"
-             >
-               <FacebookIcon />
-             </a>
           </div>
         </div>
 
@@ -88,9 +80,12 @@ export default function Footer() {
             <li><a href="/contact/" style={{ color: "inherit", textDecoration: "none" }}>Contact Us</a></li>
             <li><a href="/how-slab-leak-detection-works/" style={{ color: "inherit", textDecoration: "none" }}>How It Works</a></li>
             <li><a href="/service-areas/" style={{ color: "inherit", textDecoration: "none" }}>Check Service Availability</a></li>
-            <li>
-              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Visit Tucson Leak Pros on Facebook" title="Facebook" style={{ color: "inherit", textDecoration: "none", display: "inline-flex", alignItems: "center" }}>
-                <FacebookIcon style={{ width: "17px", height: "17px", color: "#1877f2" }} />
+            <li className="footer-social-links">
+              <a href={facebookUrl} target="_blank" rel="noopener noreferrer" aria-label="Visit Tucson Leak Pros on Facebook" title="Facebook" className="footer-social-link">
+                <FacebookIcon style={{ width: "21px", height: "21px", color: "#1877f2" }} />
+              </a>
+              <a href={instagramUrl} target="_blank" rel="noopener noreferrer" aria-label="Visit Tucson Leak Pros on Instagram" title="Instagram" className="footer-social-link">
+                <InstagramIcon style={{ width: "22px", height: "22px", color: "#e4405f" }} />
               </a>
             </li>
             <li><a href="tel:5205550199" style={{ color: "inherit", textDecoration: "none" }}>Call Now</a></li>
