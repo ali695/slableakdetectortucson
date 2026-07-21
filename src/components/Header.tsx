@@ -133,9 +133,9 @@ export default function Header() {
     <header className="site-header">
       <div className="utility-bar-shell">
         <div className="container utility-bar">
-          <a href="tel:5205550199" className="utility-phone-link">
+          <a href="tel:+18775638191" className="utility-phone-link">
             <Phone size={14} aria-hidden="true" />
-            <span>Call Now: (520) 555-0199</span>
+            <span>Call Now: 877-563-8191</span>
           </a>
           <Link href="/contact/" className="utility-request-link">
             Request Leak Detection

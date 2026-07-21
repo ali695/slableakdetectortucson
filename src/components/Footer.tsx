@@ -19,7 +19,7 @@ export default function Footer() {
             Hidden water-line detection and slab leak repair services across Tucson and surrounding communities.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-             <a href="tel:5205550199" className="btn-primary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>CALL NOW</a>
+             <a href="tel:+18775638191" className="btn-primary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>CALL NOW</a>
              <Link href="/contact/" className="btn-secondary" style={{ padding: "0.75rem 1.25rem", fontSize: "0.85rem" }}>REQUEST LEAK DETECTION</Link>
           </div>
         </div>
@@ -88,8 +88,8 @@ export default function Footer() {
                 <InstagramIcon style={{ width: "22px", height: "22px", color: "#e4405f" }} />
               </a>
             </li>
-            <li><a href="tel:5205550199" style={{ color: "inherit", textDecoration: "none" }}>Call Now</a></li>
-            <li style={{ marginTop: "1rem", color: "var(--white)" }}><strong>Phone:</strong> (520) 555-0199</li>
+            <li><a href="tel:+18775638191" style={{ color: "inherit", textDecoration: "none" }}>Call Now</a></li>
+            <li style={{ marginTop: "1rem", color: "var(--white)" }}><strong>Phone:</strong> 877-563-8191</li>
             <li style={{ color: "var(--white)" }}>4751 S Irving Ave, Tucson, AZ 85714, United States</li>
             <li style={{ color: "var(--white)" }}><strong>Hours:</strong> 7:00 AM - 7:00 PM</li>
           </ul>

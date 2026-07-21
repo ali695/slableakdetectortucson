@@ -1715,3 +1715,60 @@ img {
   gap: 1rem;
   margin-top: 2rem;
 }
+
+/* Persistent direct-call control */
+.floating-call-button {
+  position: fixed;
+  left: max(1.25rem, env(safe-area-inset-left));
+  bottom: max(1.25rem, env(safe-area-inset-bottom));
+  z-index: 900;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--white);
+  border-radius: 50%;
+  color: var(--white);
+  background: #ffb51b;
+  box-shadow: 0 0 0 2px var(--dark-charcoal), 0 10px 24px rgba(24, 24, 27, 0.32);
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.floating-call-button svg {
+  width: 29px;
+  height: 29px;
+  fill: currentColor;
+}
+
+.floating-call-button:hover {
+  color: var(--white);
+  background: #e99d00;
+  box-shadow: 0 0 0 2px var(--dark-charcoal), 0 14px 30px rgba(24, 24, 27, 0.38);
+  transform: translateY(-3px);
+}
+
+.floating-call-button:active {
+  transform: translateY(0) scale(0.96);
+}
+
+@media (max-width: 640px) {
+  .floating-call-button {
+    left: max(0.9rem, env(safe-area-inset-left));
+    bottom: max(0.9rem, env(safe-area-inset-bottom));
+    width: 56px;
+    height: 56px;
+  }
+
+  .floating-call-button svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+
+@media print {
+  .floating-call-button {
+    display: none;
+  }
+}

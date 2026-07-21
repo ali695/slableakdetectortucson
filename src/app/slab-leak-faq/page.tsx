@@ -201,8 +201,8 @@ export default function SlabLeakFaq() {
               Our team is ready to help clarify any concerns about your specific plumbing situation. Describe your symptom and provide your ZIP code.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.5rem" }}>
-              <a href="tel:5205550199" style={{ display: "flex", alignItems: "center", gap: "0.5rem", backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold" }}>
-                <Phone size={20} /> Call (520) 555-0199
+              <a href="tel:+18775638191" style={{ display: "flex", alignItems: "center", gap: "0.5rem", backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold" }}>
+                <Phone size={20} /> Call 877-563-8191
               </a>
               <a href="/contact/" style={{ display: "flex", alignItems: "center", gap: "0.5rem", backgroundColor: "transparent", color: "var(--white)", border: "2px solid var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold" }}>
                 <Mail size={20} /> Use Contact Form

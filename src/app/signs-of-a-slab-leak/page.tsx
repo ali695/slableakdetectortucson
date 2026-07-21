@@ -355,7 +355,7 @@ export default function SignsOfSlabLeak() {
               <p style={{ color: "#7f1d1d", fontSize: "1.1rem", maxWidth: "700px", marginBottom: "2rem", lineHeight: "1.6" }}>
                 Treat the condition as urgent when there is <strong>active spreading water, water near electrical equipment, rapid unexplained meter flow, sudden major pressure loss, or finishes changing quickly.</strong> If safe, close the private main shutoff, protect people and belongings, and arrange prompt plumbing help. Do not force an old or damaged valve.
               </p>
-              <a href="tel:5205550199" style={{ backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold", fontSize: "1.1rem", textTransform: "uppercase", letterSpacing: "1px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
+              <a href="tel:+18775638191" style={{ backgroundColor: "var(--brand-red)", color: "var(--white)", padding: "1rem 2rem", borderRadius: "4px", textDecoration: "none", fontWeight: "bold", fontSize: "1.1rem", textTransform: "uppercase", letterSpacing: "1px", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
                 <Volume2 size={20} /> CALL ABOUT AN ACTIVE LEAK
               </a>
             </div>

@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingCallButton from "@/components/FloatingCallButton";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "600", "700", "800", "900"] });
 
@@ -46,7 +47,7 @@ const organizationSchema = {
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-520-555-0199",
+    "telephone": "+1-877-563-8191",
     "contactType": "customer service",
     "areaServed": "US",
     "availableLanguage": "en"
@@ -66,6 +67,7 @@ export default function RootLayout({
         <Header />
         <div id="main-content">{children}</div>
         <Footer />
+        <FloatingCallButton />
       </body>
     </html>
   );

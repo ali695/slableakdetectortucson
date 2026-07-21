@@ -32,7 +32,7 @@ export default function ContactForm() {
           </div>
           <div style={{ flex: 1 }}>
             <label htmlFor="contact-phone" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Phone Number</label>
-            <input id="contact-phone" type="tel" name="phone" autoComplete="tel" className="form-control" style={{ marginBottom: 0 }} placeholder="(520) 555-0123" value={formData.phone} onChange={handleChange} required />
+            <input id="contact-phone" type="tel" name="phone" autoComplete="tel" className="form-control" style={{ marginBottom: 0 }} placeholder="877-563-8191" value={formData.phone} onChange={handleChange} required />
           </div>
         </div>
 

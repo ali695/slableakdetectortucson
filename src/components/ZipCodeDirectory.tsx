@@ -43,8 +43,8 @@ export default function ZipCodeDirectory() {
           <p style={{ color: "#a1a1aa", marginBottom: "2rem", maxWidth: "600px", margin: "0 auto 2rem", fontSize: "1.05rem" }}>
             We frequently expand our service routes. Call our dispatch team to see if we have a technician available in your area today.
           </p>
-          <a href="tel:5205550199" className="btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.75rem", padding: "1.25rem 2.5rem", borderRadius: "8px", fontSize: "1.1rem" }}>
-            <Phone size={20} /> Call (520) 555-0199
+          <a href="tel:+18775638191" className="btn-primary" style={{ display: "inline-flex", alignItems: "center", gap: "0.75rem", padding: "1.25rem 2.5rem", borderRadius: "8px", fontSize: "1.1rem" }}>
+            <Phone size={20} /> Call 877-563-8191
           </a>
         </div>
       </div>

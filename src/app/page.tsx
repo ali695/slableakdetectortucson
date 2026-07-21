@@ -37,7 +37,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   "name": "Tucson Leak Pros",
   "image": "https://slableakdetectortucson.pages.dev/images/services_hub_hero.webp",
-  "telephone": "(520) 555-0199",
+  "telephone": "+1-877-563-8191",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "4751 S Irving Ave",
