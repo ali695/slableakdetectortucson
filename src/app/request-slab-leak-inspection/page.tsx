@@ -67,7 +67,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ margin: 0, fontSize: "1.2rem", fontWeight: "bold" }}>Call Us Immediately</h4>
-                      <a href="tel:+18775638191" style={{ color: "#e4e4e7", textDecoration: "none", fontSize: "1.1rem" }}>877-563-8191</a>
+                      <a href="tel:+15205930550" style={{ color: "#e4e4e7", textDecoration: "none", fontSize: "1.1rem" }}>(520) 593-0550</a>
                     </div>
                   </div>
 
@@ -129,7 +129,7 @@ export default function Contact() {
                 <li style={{ marginBottom: "0.5rem" }}>3. Call our dispatch number directly for rapid emergency service.</li>
               </ul>
               <div>
-                <a href="tel:+18775638191" className="btn-primary" style={{ display: "inline-block", padding: "1rem 2rem", fontWeight: "bold" }}>CALL 877-563-8191</a>
+                <a href="tel:+15205930550" className="btn-primary" style={{ display: "inline-block", padding: "1rem 2rem", fontWeight: "bold" }}>CALL (520) 593-0550</a>
               </div>
             </div>
           </div>

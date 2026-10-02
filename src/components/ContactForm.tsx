@@ -9,10 +9,11 @@ export default function ContactForm() {
     symptom: "",
     message: ""
   });
+  const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Thank you ${formData.name}. Your request for ZIP ${formData.zip} has been submitted.`);
+    setStatusMessage(`Thank you, ${formData.name}. Your request for ZIP ${formData.zip} has been received. Our team will contact you shortly.`);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -32,7 +33,7 @@ export default function ContactForm() {
           </div>
           <div style={{ flex: 1 }}>
             <label htmlFor="contact-phone" style={{ display: "block", marginBottom: "0.25rem", fontWeight: "bold", fontSize: "0.9rem" }}>Phone Number</label>
-            <input id="contact-phone" type="tel" name="phone" autoComplete="tel" className="form-control" style={{ marginBottom: 0 }} placeholder="877-563-8191" value={formData.phone} onChange={handleChange} required />
+            <input id="contact-phone" type="tel" name="phone" autoComplete="tel" className="form-control" style={{ marginBottom: 0 }} placeholder="(520) 593-0550" value={formData.phone} onChange={handleChange} required />
           </div>
         </div>
 
@@ -88,7 +89,16 @@ export default function ContactForm() {
         </div>
 
         <button type="submit" style={{ width: "100%", padding: "1.25rem", fontSize: "1.1rem", fontWeight: "bold", backgroundColor: "var(--brand-red)", color: "var(--white)", border: "none", borderRadius: "8px", cursor: "pointer", marginTop: "0.5rem" }}>SUBMIT REQUEST</button>
-        <p style={{ fontSize: "0.75rem", color: "#71717a", textAlign: "center", marginTop: "0.5rem", marginBottom: 0 }}>
+        
+        <div aria-live="polite" style={{ marginTop: statusMessage ? "1rem" : 0 }}>
+          {statusMessage && (
+            <div style={{ backgroundColor: "#dcfce7", color: "#166534", padding: "1rem", borderRadius: "8px", border: "1px solid #bbf7d0", fontSize: "0.95rem", textAlign: "center" }}>
+              {statusMessage}
+            </div>
+          )}
+        </div>
+
+        <p style={{ fontSize: "0.75rem", color: "#52525b", textAlign: "center", marginTop: "0.5rem", marginBottom: 0 }}>
           We aim to respond to all inquiries within 15 minutes during regular hours.
         </p>
       </form>

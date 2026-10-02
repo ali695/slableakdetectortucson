@@ -47,7 +47,7 @@ const organizationSchema = {
   ],
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+1-877-563-8191",
+    "telephone": "+1-520-593-0550",
     "contactType": "customer service",
     "areaServed": "US",
     "availableLanguage": "en"
@@ -65,7 +65,7 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
         <a href="#main-content" className="skip-link">Skip to main content</a>
         <Header />
-        <div id="main-content">{children}</div>
+        <div id="main-content" tabIndex={-1}>{children}</div>
         <Footer />
         <FloatingCallButton />
       </body>

@@ -121,21 +121,13 @@ export default function Header() {
     setOpenSubmenu((current) => (current === menu ? null : menu));
   };
 
-  const releaseDesktopMenuFocus = () => {
-    requestAnimationFrame(() => {
-      if (document.activeElement instanceof HTMLElement) {
-        document.activeElement.blur();
-      }
-    });
-  };
-
   return (
     <header className="site-header">
       <div className="utility-bar-shell">
         <div className="container utility-bar">
-          <a href="tel:+18775638191" className="utility-phone-link">
+          <a href="tel:+15205930550" className="utility-phone-link">
             <Phone size={14} aria-hidden="true" />
-            <span>Call Now: 877-563-8191</span>
+            <span>Call Now: (520) 593-0550</span>
           </a>
           <Link href="/contact/" className="utility-request-link">
             Request Leak Detection
@@ -160,14 +152,14 @@ export default function Header() {
             {isMobileMenuOpen ? <X size={28} aria-hidden="true" /> : <Menu size={28} aria-hidden="true" />}
           </button>
 
-          <nav className="nav-menu desktop-nav" aria-label="Primary navigation" onClickCapture={releaseDesktopMenuFocus}>
+          <nav className="nav-menu desktop-nav" aria-label="Primary navigation">
             <div className="nav-item">
               <Link href="/" className="nav-link">Home</Link>
             </div>
 
             {menuGroups.map((group) => (
               <div className="nav-item" key={group.id}>
-                <Link href={group.href} className="nav-link">
+                <Link href={group.href} className="nav-link" aria-haspopup="menu">
                   {group.label}
                   <ChevronDown className="nav-chevron" size={14} aria-hidden="true" />
                 </Link>

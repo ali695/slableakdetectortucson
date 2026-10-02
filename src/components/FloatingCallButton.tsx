@@ -3,10 +3,10 @@ import { Phone } from "lucide-react";
 export default function FloatingCallButton() {
   return (
     <a
-      href="tel:+18775638191"
+      href="tel:+15205930550"
       className="floating-call-button"
-      aria-label="Call Tucson Leak Pros at 877-563-8191"
-      title="Call 877-563-8191"
+      aria-label="Call Tucson Leak Pros at (520) 593-0550"
+      title="Call (520) 593-0550"
     >
       <Phone aria-hidden="true" strokeWidth={2.6} />
     </a>
