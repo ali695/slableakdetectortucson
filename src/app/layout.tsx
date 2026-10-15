@@ -8,13 +8,13 @@ import FloatingCallButton from "@/components/FloatingCallButton";
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://slableakdetectortucson.pages.dev"),
+  metadataBase: new URL("https://slableakdetectortucson.com"),
   title: "Tucson Slab Leak Detection & Repair | AZ",
   description: "Expert slab leak detection and repair in Tucson, AZ. We find hidden leaks under concrete without unnecessary damage. Request an inspection today.",
   openGraph: {
     title: "Tucson Slab Leak Detection & Repair | AZ",
     description: "Expert slab leak detection and repair in Tucson, AZ. We find hidden leaks under concrete without unnecessary damage. Request an inspection today.",
-    url: "https://slableakdetectortucson.pages.dev/",
+    url: "https://slableakdetectortucson.com/",
     siteName: "Tucson Leak Pros",
     images: [
       {
@@ -39,8 +39,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Tucson Leak Pros",
-  "url": "https://slableakdetectortucson.pages.dev/",
-  "logo": "https://slableakdetectortucson.pages.dev/images/services_hub_hero.webp",
+  "url": "https://slableakdetectortucson.com/",
+  "logo": "https://slableakdetectortucson.com/images/services_hub_hero.webp",
   "sameAs": [
     "https://www.facebook.com/tucsonleakpros",
     "https://www.instagram.com/slableakdetectiontucson/"

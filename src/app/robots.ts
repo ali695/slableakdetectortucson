@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://slableakdetectortucson.pages.dev/sitemap.xml",
-    host: "slableakdetectortucson.pages.dev",
+    sitemap: "https://slableakdetectortucson.com/sitemap.xml",
+    host: "slableakdetectortucson.com",
   };
 }

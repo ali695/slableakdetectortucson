@@ -1,0 +1,10 @@
+# Redirect Cloudflare pages.dev domain to primary custom domain
+https://slableakdetectortucson.pages.dev/* https://slableakdetectortucson.com/:splat 301
+http://slableakdetectortucson.pages.dev/* https://slableakdetectortucson.com/:splat 301
+
+# Canonical host redirects (www to non-www)
+https://www.slableakdetectortucson.com/* https://slableakdetectortucson.com/:splat 301
+http://www.slableakdetectortucson.com/* https://slableakdetectortucson.com/:splat 301
+
+# Force HTTPS
+http://slableakdetectortucson.com/* https://slableakdetectortucson.com/:splat 301

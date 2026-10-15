@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tucson Slab Leak Blog | Practical Homeowner Guides",
     description: "Thirty practical guides for understanding hidden water loss, testing and repair choices.",
-    url: "https://slableakdetectortucson.pages.dev/blog/",
+    url: "https://slableakdetectortucson.com/blog/",
     siteName: "Tucson Leak Pros",
     locale: "en_US",
     images: [{ url: "/images/blog/understanding-slab-leaks.webp", width: 1536, height: 1024, alt: "Tucson slab leak homeowner resource center" }],

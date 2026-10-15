@@ -3,7 +3,7 @@ import { blogArticles } from "@/data/blogArticles";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://slableakdetectortucson.pages.dev";
+const baseUrl = "https://slableakdetectortucson.com";
 const contentUpdatedAt = new Date("2026-07-19T00:00:00.000Z");
 
 type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>;

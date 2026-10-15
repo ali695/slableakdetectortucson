@@ -8,7 +8,7 @@ const outputDirectory = join(projectRoot, "out");
 const maxFiles = 20_000;
 const maxFileSize = 25 * 1024 * 1024;
 
-const requiredFiles = ["index.html", "404.html", "sitemap.xml", "_headers"];
+const requiredFiles = ["index.html", "404.html", "sitemap.xml", "_headers", "_redirects"];
 
 if (!existsSync(outputDirectory)) {
   throw new Error("Static export validation failed: out/ does not exist.");
